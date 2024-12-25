@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@keyframes beatFade {
+  0%,
+  100% {
+    transform: scale(1); /* Normal size */
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    transform: scale(1.1); /* Slightly larger */
+    opacity: 0.8; /* Slightly faded */
+  }
+}
+
+/* Apply the animation to the beatFade class */
+.beatFade {
+  animation: beatFade 1.5s infinite ease-in-out; /* Adjust duration and timing */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+/* Optional: Add a hover state for interactivity */
+.beatFade:hover {
+  transform: scale(1.2); /* Grow slightly on hover */
+  opacity: 0.9; /* Increase visibility */
+}
