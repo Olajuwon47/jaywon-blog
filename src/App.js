@@ -6,7 +6,7 @@ import  Footer from './pages/Footer.js';
 import Team from './pages/Team.js';
 import Contract from './pages/contract.js';
 //import { BrowserRouter, Routes, Route } from "react-router";
-import './App.css';
+//import './App.css';
 //import Newletter from './pages/newletter.js';
 
 function App() {

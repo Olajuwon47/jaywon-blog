@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../index.css';
 export default function Footer() {
     return (
       <footer className="bg-emerald-400  text-black p-8">
@@ -21,17 +21,6 @@ export default function Footer() {
               <li><a href="/Specs" className="hover:text-white">Specs</a></li>
               <li><a href="/Tools" className="hover:text-white">Tools</a></li>
               <li><a href="/Resources" className="hover:text-white">Resources</a></li>
-            </ul>
-          </div>
-          <div>
-            <input type="checkbox" className="hidden" defaultChecked />
-            <h1 className="text-lg font-semibold  text-black mb-3">Technology</h1>
-            <ul className="space-y-2">
-              <li><a href="/How it works" className="hover:text-white">How it works</a></li>
-              <li><a href="/Patterns" className="hover:text-white">Patterns</a></li>
-              <li><a href="/Usage" className="hover:text-white">Usage</a></li>
-              <li><a href="/Products" className="hover:text-white">Products</a></li>
-              <li><a href="/Contracts" className="hover:text-white">Contracts</a></li>
             </ul>
           </div>
           <div>
@@ -73,7 +62,7 @@ export default function Footer() {
         </div>
   
         <div className="mt-8 text-center">
-          <p className="#">&copy; 2024 WEARS. All rights reserved.</p>
+          <p className="#">&copy; 2025 BLOG. All rights reserved.</p>
           <nav className="mt-4 space-x-4">
             <a href="https://zigarmy.com/privacy-policy" className="hover: text-black">Privacy Policy</a>
             <a href="/Terms of Service" className="hover:text-white">Terms of Service</a>

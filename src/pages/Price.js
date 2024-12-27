@@ -39,9 +39,9 @@ function classNames(...classes) {
 
 export default function PricingPage() {
   return (
-    <div className="relative isolate bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate bg-gray-700 px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-base font-semibold text-indigo-600">Pricing</h2>
+        <h2 className="text-base font-semibold text-gray-600">Pricing</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Plans for every kind of blogger
         </p>
@@ -54,7 +54,7 @@ export default function PricingPage() {
           <div
             key={tier.id}
             className={classNames(
-              tier.featured ? 'bg-indigo-600 text-white shadow-xl' : 'bg-white ring-1 ring-gray-200',
+              tier.featured ? 'bg-lime-600 text-white shadow-xl' : 'bg-white ring-1 ring-gray-200',
               'rounded-lg p-8',
             )}
           >
@@ -90,8 +90,8 @@ export default function PricingPage() {
               href={tier.href}
               className={classNames(
                 tier.featured
-                  ? 'bg-white text-indigo-600 hover:bg-indigo-100'
-                  : 'bg-indigo-600 text-white hover:bg-indigo-500',
+                  ? 'bg-lime-600 text-white hover:bg-lime-900'
+                  : 'bg-lime-600 text-white hover:bg-lime-900',
                 'mt-8 block w-full rounded-md py-2 px-4 text-center font-semibold',
               )}
             >

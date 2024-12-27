@@ -1,8 +1,8 @@
- import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
  import { Link } from "react-router";
  
   export default function Bloglist() {
-    const [blogs, setblogs] = useState([])
+   const [blogs, setblogs] = useState([])
 
    useEffect(() => {
       async function fetchBlogs() {
@@ -13,8 +13,6 @@
           console.log('Cached data:', parsedData);
           setblogs(Array.isArray(parsedData) ? parsedData : []);
           return;
-            /*console.log('blog');
-            return JSON.parse(cachedData);*/
         }
       const response = await fetch('http://localhost:3000/Data/blog.json');
       if (!response.ok) {
@@ -22,23 +20,17 @@
       }
       const data = await response.json();
       console.log('Fetched data:', data);
-      localStorage.setItem('/Data/blog.json', JSON.stringify(data));
       setblogs(Array.isArray(data) ? data : []);
     } catch (error) {
       console.error('Failed to fetch blogs:', error);
     }
-      /*const data = await response.json();
-        localStorage.setItem('/Data/blog.json', JSON.stringify(data));
-        setblogs(data);
-      } catch (error) {
-        console.error('Failed to fetch blogs:', error);
-      }*/
+    
     }
      fetchBlogs();
    }, []);
     
     return (
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-lime-300 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
@@ -55,7 +47,7 @@
                     to={blog.url}
                     className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                   >
-                   {blog.source.name || 'Source'}
+                   {blog.source?.name || 'Source'}
                   </Link>
                 </div>
                    <div className="group relative">
@@ -74,10 +66,10 @@
                     <p className="font-semibold text-gray-900">
                       <Link to={blog.url}>
                         <span className="absolute inset-0" />
-                        {blog.author.name}
+                        {blog.author?.name || 'Unknown Author'}
                       </Link>
                     </p>
-                    <p className="text-gray-600">{blog.source.name || 'Source'}</p>
+                    <p className="text-gray-600">{blog.source?.name || 'Source'}</p>
                   </div>
                 </div>
               </article>

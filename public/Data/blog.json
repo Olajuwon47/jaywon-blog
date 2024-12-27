@@ -1,7 +1,4 @@
-{
-    "status": "ok",
-    "totalResults": 4765,
-    "articles": [
+[
     {
     "source": {
     "id": null,
@@ -1302,5 +1299,4 @@
     "publishedAt": "2024-12-17T13:23:47Z",
     "content": "President-elect Trump settled a defamation lawsuit with ABC News for $15 million.\r\nThe suit followed a segment in which George Stephanopoulos inaccurately said Trump had been found civilly liable for… [+1712 chars]"
     }
-    ]
-    }
+]

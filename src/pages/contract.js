@@ -7,7 +7,7 @@ export default function Example() {
   const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-lime-200 px-6 py-24 sm:py-32 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -132,7 +132,7 @@ export default function Example() {
             </div>
             <Label className="text-sm/6 text-gray-600">
               By selecting this, you agree to our{' '}
-              <a href="/cat" className="font-semibold text-indigo-600">
+              <a href="/cat" className="font-semibold text-stone">
                 privacy&nbsp;policy
               </a>
               .
@@ -142,7 +142,7 @@ export default function Example() {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-lime-300 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Let's talk
           </button>

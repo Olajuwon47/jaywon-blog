@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import React from 'react';
 const links = [
     { name: 'Open roles', href: '#' },
     { name: 'Internship program', href: '#' },
@@ -14,7 +14,7 @@ const links = [
   
   export default function About() {
     return (
-      <div className="relative isolate overflow-hidden bg-green-500 py-24 sm:py-32">
+      <div className="relative isolate overflow-hidden py-24 sm:py-32">
         <img
           alt=""
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
@@ -47,13 +47,13 @@ const links = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
-            <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
+            <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-xl/8">
             Infused with a vibrant touch of originality, this is where human creativity shines.Dive into a world crafted with care, where stories connect and inspire. Every word is a testament to the art of thoughtful expression,
              resonating with those who seek meaningful content.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
                 <a key={link.name} href={link.href}>
                   {link.name} <span aria-hidden="true">&rarr;</span>
@@ -63,20 +63,13 @@ const links = [
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.name} className="flex flex-col-reverse gap-1">
-                  <dt className="text-base/7 text-gray-300">{stat.name}</dt>
+                  <dt className="text-base/7 text-white">{stat.name}</dt>
                   <dd className="text-4xl font-semibold tracking-tight text-white">{stat.value}</dd>
                 </div>
               ))}
             </dl>
           </div>
-          <div className="mt-10 flex items-center justify-end gap-x-6">
-              <Link
-                to="/Navbar"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Home
-              </Link>
-            </div>
+          
         </div>
       </div>
     )

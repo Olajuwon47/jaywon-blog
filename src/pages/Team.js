@@ -1,4 +1,6 @@
 import React from 'react';
+import '../index.css';
+
 const people = [
   {
     name: 'Leslie Alexander',
@@ -77,7 +79,7 @@ const people = [
 
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-lime-200 py-24 sm:py-32">
     <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
       <div className="max-w-xl">
         <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
@@ -88,7 +90,7 @@ export default function Example() {
           best results for our clients.
         </p>
       </div>
-    <ul role="list" className="divide-y divide-gray-100">
+    <ul role="list" className="divide-y divide-gray-900">
       {people.map((person) => (
         <li key={person.email} className="flex justify-between gap-x-6 py-5">
           <div className="flex min-w-0 gap-x-4">
@@ -131,35 +133,35 @@ export default function Example() {
             src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg"
             width={158}
             height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 beatFade"
           />
           <img
             alt="Reform"
             src="https://tailwindui.com/plus/img/logos/158x48/reform-logo-gray-900.svg"
             width={158}
             height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 beatFade"
           />
           <img
             alt="Tuple"
             src="https://tailwindui.com/plus/img/logos/158x48/tuple-logo-gray-900.svg"
             width={158}
             height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 beatFade"
           />
           <img
             alt="SavvyCal"
             src="https://tailwindui.com/plus/img/logos/158x48/savvycal-logo-gray-900.svg"
             width={158}
             height={48}
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 beatFade"
           />
           <img
             alt="Statamic"
             src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-gray-900.svg"
             width={158}
             height={48}
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 beatFade"
           />
         </div>
       </div>
