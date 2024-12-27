@@ -20,6 +20,7 @@ import { useState, useEffect } from 'react'
       }
       const data = await response.json();
       console.log('Fetched data:', data);
+      //localStorage.setItem('/Data/blog.json', JSON.stringify(data));
       setblogs(Array.isArray(data) ? data : []);
     } catch (error) {
       console.error('Failed to fetch blogs:', error);
