@@ -90,7 +90,7 @@ export default function Example() {
           best results for our clients.
         </p>
       </div>
-    <ul role="list" className="divide-y divide-gray-900">
+    <div role="list" className="divide-y divide-gray-900">
       {people.map((person) => (
         <li key={person.email} className="flex justify-between gap-x-6 py-5">
           <div className="flex min-w-0 gap-x-4">
@@ -121,7 +121,7 @@ export default function Example() {
           </div>
         </li>
       ))}
-    </ul>
+    </div>
     </div>
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg/8 font-semibold text-gray-900">

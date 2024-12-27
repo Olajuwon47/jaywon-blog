@@ -39,7 +39,7 @@ function classNames(...classes) {
 
 export default function PricingPage() {
   return (
-    <div className="relative isolate bg-gray-700 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate bg-lime-50 px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-base font-semibold text-gray-600">Pricing</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -75,7 +75,7 @@ export default function PricingPage() {
                 <li key={feature} className="flex items-center">
                   <CheckIcon
                     className={classNames(
-                      tier.featured ? 'text-white' : 'text-indigo-600',
+                      tier.featured ? 'text-white' : 'text-gray-100',
                       'h-6 w-6 flex-none',
                     )}
                     aria-hidden="true"
@@ -90,9 +90,9 @@ export default function PricingPage() {
               href={tier.href}
               className={classNames(
                 tier.featured
-                  ? 'bg-lime-600 text-white hover:bg-lime-900'
-                  : 'bg-lime-600 text-white hover:bg-lime-900',
-                'mt-8 block w-full rounded-md py-2 px-4 text-center font-semibold',
+                  ? 'bg-lime-300 text-white hover:bg-lime-900'
+                  : 'bg-lime-300 text-white hover:bg-lime-900',
+                'mt-4 block w-full rounded-md py-2 px-4 text-center font-semibold',
               )}
             >
               Choose Plan
