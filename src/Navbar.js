@@ -8,15 +8,16 @@ const navigation = [
   { name: 'Blog', href: '/Blog' },
   { name: 'About', href: '/About' },
   { name: 'Mission', href: '/Mission' },
-  { name: 'Newletters', href: '/newletter' },
+  { name: 'Contact Us', href: '/contact' },
   { name: 'Price', href: '/Price' },
+  { name: 'Add Blog', href: '/Add' },
 ]
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-green-300">
+    <div className="bg-lime-50">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
@@ -81,7 +82,7 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-gray-900"
               >
                 <span className="sr-only">Close menu</span>
                 <XMarkIcon aria-hidden="true" className="size-6" />
@@ -149,7 +150,7 @@ export default function Home() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 to="/blog"
-                className="rounded-md bg-lime-300 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-lime-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-300"
+                className="rounded-md bg-lime-50 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-lime-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-300"
               >
                 Get started
               </Link>

@@ -79,7 +79,7 @@ const people = [
 
 export default function Example() {
   return (
-    <div className="bg-lime-200 py-24 sm:py-32">
+    <div className="bg-lime-50 py-24 sm:py-32">
     <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
       <div className="max-w-xl">
         <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
@@ -92,7 +92,7 @@ export default function Example() {
       </div>
     <div role="list" className="divide-y divide-gray-900">
       {people.map((person) => (
-        <li key={person.email} className="flex justify-between gap-x-6 py-5">
+        <li key={person.email || person.name} className="flex justify-between gap-x-6 py-5">
           <div className="flex min-w-0 gap-x-4">
             <img
               alt=""

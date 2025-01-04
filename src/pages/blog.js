@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
   export default function Bloglist() {
    const [blogs, setblogs] = useState([])
 
-   useEffect(() => {
+   /*useEffect(() => {
       async function fetchBlogs() {
         try {
         const cachedData = localStorage.getItem('/Data/blog.json');
@@ -28,20 +28,49 @@ import { useState, useEffect } from 'react'
     
     }
      fetchBlogs();
-   }, []);
+   }, []);*/
+
+   useEffect(() => {
+    async function fetchBlogs() {
+      try {
+        const cachedData = localStorage.getItem('/Data/blog.json');
+        if (cachedData) {
+          try {
+            const parsedData = JSON.parse(cachedData);
+            console.log('Cached data:', parsedData);
+            setblogs(Array.isArray(parsedData) ? parsedData : []);
+            return;
+          } catch (error) {
+            console.error('Error parsing cached data:', error);
+          }
+        }
+        const response = await fetch('http://localhost:3000/Data/blog.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log('Fetched data:', data);
+        localStorage.setItem('/Data/blog.json', JSON.stringify(data));
+        setblogs(Array.isArray(data) ? data : []);
+      } catch (error) {
+        console.error('Failed to fetch blogs:', error);
+      }
+    }
+    fetchBlogs();
+  }, []);
     
     return (
-      <div className="bg-lime-300 py-24 sm:py-32">
+      <div className="bg-lime-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
-            <p className="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+            <p className="mt-2 text-lg/8 text-gray-900">Learn how to grow your business with our expert advice.</p>
           </div>
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {blogs.map((blog, index) => (
               <article key={index} className="flex max-w-xl flex-col items-start justify-between">
                 <div className="flex items-center gap-x-4 text-xs">
-                  <time dateTime={blog.publishedAt} className="text-gray-500">
+                  <time dateTime={blog.publishedAt} className="text-gray-900">
                   {new Date(blog.publishedAt).toLocaleDateString()}
                   </time>
                   <Link
