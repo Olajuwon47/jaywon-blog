@@ -2,652 +2,67 @@
     {
         "source": {
             "id": null,
-            "name": "BBC Sport"
+            "name": "TechCrunch"
         },
-        "author": "Alex Mason",
-        "title": "Champions League Draw Revealed",
-        "description": "The road to the final is set as UEFA reveals the Champions League matchups.",
-        "url": "https://www.bbc.com/sport/football/champions-league-draw",
-        "urlToImage": "https://example.com/images/champions-league.jpg",
-        "publishedAt": "2024-12-19T08:30:00Z",
-        "content": "The UEFA Champions League draw has been announced, and fans are eagerly awaiting..."
+        "author": "Jane Doe",
+        "title": "AI Revolutionizing Education: What Lies Ahead",
+        "description": "Exploring how AI-powered tools are transforming classrooms worldwide, from personalized learning to automated grading systems.",
+        "url": "https://techcrunch.com/ai-revolution-education",
+        "urlToImage": "https://example.com/images/ai-education.jpg",
+        "publishedAt": "2025-01-01T10:00:00Z",
+        "content": "Artificial intelligence has started reshaping the educational landscape with tools that cater to individual learning styles..."
     },
     {
         "source": {
             "id": null,
-            "name": "The Athletic"
+            "name": "Forbes"
         },
-        "author": "Liam Parker",
-        "title": "How Technology is Transforming Football",
-        "description": "From VAR to wearable tech, football is evolving faster than ever.",
-        "url": "https://theathletic.com/football/tech-transformation",
-        "urlToImage": "https://example.com/images/football-tech.jpg",
-        "publishedAt": "2024-12-18T14:00:00Z",
-        "content": "The introduction of technology in football has revolutionized the way the game is played and officiated..."
+        "author": "John Smith",
+        "title": "Top 10 Tech Innovations to Watch in 2025",
+        "description": "From quantum computing to the metaverse, these are the innovations poised to change the world.",
+        "url": "https://forbes.com/tech-innovations-2025",
+        "urlToImage": "https://example.com/images/tech-innovations.jpg",
+        "publishedAt": "2025-01-02T12:30:00Z",
+        "content": "2025 is shaping up to be a groundbreaking year for technology with advancements in AI, renewable energy, and more..."
     },
     {
         "source": {
             "id": null,
-            "name": "Harper's Bazaar"
+            "name": "Hollywood Reporter"
         },
-        "author": "Mia Thompson",
-        "title": "2024\u2019s Most Iconic Red Carpet Looks",
-        "description": "A review of the year's most memorable celebrity fashion moments.",
-        "url": "https://www.harpersbazaar.com/fashion/red-carpet-2024",
-        "urlToImage": "https://example.com/images/red-carpet.jpg",
-        "publishedAt": "2024-12-17T10:30:00Z",
-        "content": "From dazzling gowns to avant-garde designs, 2024 has been a year to remember for celebrity fashion..."
+        "author": "Emily Carter",
+        "title": "The Most Anticipated Movies of 2025",
+        "description": "A sneak peek at blockbuster films set to dominate the box office this year.",
+        "url": "https://hollywoodreporter.com/movies-2025-preview",
+        "urlToImage": "https://example.com/images/movies-2025.jpg",
+        "publishedAt": "2025-01-03T14:00:00Z",
+        "content": "2025 is packed with cinematic gems, including sequels to fan favorites and groundbreaking new stories..."
     },
     {
         "source": {
             "id": null,
-            "name": "Marie Claire"
+            "name": "Business Insider"
         },
-        "author": "Olivia Rose",
-        "title": "Sustainable Fashion Brands to Watch",
-        "description": "Meet the eco-friendly brands redefining the fashion industry.",
-        "url": "https://www.marieclaire.com/fashion/sustainable-brands",
-        "urlToImage": "https://example.com/images/sustainable-fashion.jpg",
-        "publishedAt": "2024-12-15T09:00:00Z",
-        "content": "As the world moves toward sustainability, these fashion brands are leading the charge with eco-conscious designs..."
+        "author": "Rachel Green",
+        "title": "How Small Businesses Can Thrive in a Digital Economy",
+        "description": "Practical strategies for small businesses to compete in an increasingly online marketplace.",
+        "url": "https://businessinsider.com/small-business-digital-strategies",
+        "urlToImage": "https://example.com/images/small-business.jpg",
+        "publishedAt": "2025-01-04T09:45:00Z",
+        "content": "With the rise of e-commerce and digital tools, small businesses have more opportunities than ever to scale and succeed..."
     },
     {
         "source": {
             "id": null,
-            "name": "Rolling Stone"
+            "name": "EdTech Magazine"
         },
-        "author": "Ethan Clarke",
-        "title": "The Best Albums of 2024",
-        "description": "Our top picks for the best music releases of the year.",
-        "url": "https://www.rollingstone.com/music/best-albums-2024",
-        "urlToImage": "https://example.com/images/best-albums.jpg",
-        "publishedAt": "2024-12-20T13:45:00Z",
-        "content": "2024 has been a remarkable year for music, with incredible albums from artists around the world..."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "E! Online"
-        },
-        "author": "Sophia Martinez",
-        "title": "Top 10 TV Shows to Binge This Winter",
-        "description": "Your ultimate guide to the most binge-worthy shows this season.",
-        "url": "https://www.eonline.com/shows/top-10-binge-winter",
-        "urlToImage": "https://example.com/images/binge-worthy.jpg",
-        "publishedAt": "2024-12-18T19:00:00Z",
-        "content": "As the weather gets colder, there's nothing better than cozying up with a great TV show..."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 1"
-        },
-        "author": "Author 1",
-        "title": "Sample Title 1 for Football",
-        "description": "Sample description for entry 1 in Football.",
-        "url": "https://example.com/football/entry-1",
-        "urlToImage": "https://example.com/images/football-1.jpg",
-        "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 1 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 2"
-        },
-        "author": "Author 2",
-        "title": "Sample Title 2 for Fashion",
-        "description": "Sample description for entry 2 in Fashion.",
-        "url": "https://example.com/fashion/entry-2",
-        "urlToImage": "https://example.com/images/fashion-2.jpg",
-        "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 2 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 3"
-        },
-        "author": "Author 3",
-        "title": "Sample Title 3 for Entertainment",
-        "description": "Sample description for entry 3 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-3",
-        "urlToImage": "https://example.com/images/entertainment-3.jpg",
-        "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 3 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 4"
-        },
-        "author": "Author 4",
-        "title": "Sample Title 4 for Football",
-        "description": "Sample description for entry 4 in Football.",
-        "url": "https://example.com/football/entry-4",
-        "urlToImage": "https://example.com/images/football-4.jpg",
-        "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 4 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 5"
-        },
-        "author": "Author 5",
-        "title": "Sample Title 5 for Fashion",
-        "description": "Sample description for entry 5 in Fashion.",
-        "url": "https://example.com/fashion/entry-5",
-        "urlToImage": "https://example.com/images/fashion-5.jpg",
-        "publishedAt": "2024-12-14T14:00:00Z",
-        "content": "Sample content for entry 5 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 6"
-        },
-        "author": "Author 6",
-        "title": "Sample Title 6 for Entertainment",
-        "description": "Sample description for entry 6 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-6",
-        "urlToImage": "https://example.com/images/entertainment-6.jpg",
-        "publishedAt": "2024-12-15T15:00:00Z",
-        "content": "Sample content for entry 6 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 7"
-        },
-        "author": "Author 7",
-        "title": "Sample Title 7 for Football",
-        "description": "Sample description for entry 7 in Football.",
-        "url": "https://example.com/football/entry-7",
-        "urlToImage": "https://example.com/images/football-7.jpg",
-        "publishedAt": "2024-12-16T16:00:00Z",
-        "content": "Sample content for entry 7 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 8"
-        },
-        "author": "Author 8",
-        "title": "Sample Title 8 for Fashion",
-        "description": "Sample description for entry 8 in Fashion.",
-        "url": "https://example.com/fashion/entry-8",
-        "urlToImage": "https://example.com/images/fashion-8.jpg",
-        "publishedAt": "2024-12-17T17:00:00Z",
-        "content": "Sample content for entry 8 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 9"
-        },
-        "author": "Author 9",
-        "title": "Sample Title 9 for Entertainment",
-        "description": "Sample description for entry 9 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-9",
-        "urlToImage": "https://example.com/images/entertainment-9.jpg",
-        "publishedAt": "2024-12-18T18:00:00Z",
-        "content": "Sample content for entry 9 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 10"
-        },
-        "author": "Author 10",
-        "title": "Sample Title 10 for Football",
-        "description": "Sample description for entry 10 in Football.",
-        "url": "https://example.com/football/entry-10",
-        "urlToImage": "https://example.com/images/football-10.jpg",
-        "publishedAt": "2024-12-19T19:00:00Z",
-        "content": "Sample content for entry 10 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 11"
-        },
-        "author": "Author 11",
-        "title": "Sample Title 11 for Fashion",
-        "description": "Sample description for entry 11 in Fashion.",
-        "url": "https://example.com/fashion/entry-11",
-        "urlToImage": "https://example.com/images/fashion-11.jpg",
-        "publishedAt": "2024-12-20T10:00:00Z",
-        "content": "Sample content for entry 11 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 12"
-        },
-        "author": "Author 12",
-        "title": "Sample Title 12 for Entertainment",
-        "description": "Sample description for entry 12 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-12",
-        "urlToImage": "https://example.com/images/entertainment-12.jpg",
-        "publishedAt": "2024-12-21T11:00:00Z",
-        "content": "Sample content for entry 12 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 13"
-        },
-        "author": "Author 13",
-        "title": "Sample Title 13 for Football",
-        "description": "Sample description for entry 13 in Football.",
-        "url": "https://example.com/football/entry-13",
-        "urlToImage": "https://example.com/images/football-13.jpg",
-        "publishedAt": "2024-12-22T12:00:00Z",
-        "content": "Sample content for entry 13 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 14"
-        },
-        "author": "Author 14",
-        "title": "Sample Title 14 for Fashion",
-        "description": "Sample description for entry 14 in Fashion.",
-        "url": "https://example.com/fashion/entry-14",
-        "urlToImage": "https://example.com/images/fashion-14.jpg",
-        "publishedAt": "2024-12-23T13:00:00Z",
-        "content": "Sample content for entry 14 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 15"
-        },
-        "author": "Author 15",
-        "title": "Sample Title 15 for Entertainment",
-        "description": "Sample description for entry 15 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-15",
-        "urlToImage": "https://example.com/images/entertainment-15.jpg",
-        "publishedAt": "2024-12-24T14:00:00Z",
-        "content": "Sample content for entry 15 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 16"
-        },
-        "author": "Author 16",
-        "title": "Sample Title 16 for Football",
-        "description": "Sample description for entry 16 in Football.",
-        "url": "https://example.com/football/entry-16",
-        "urlToImage": "https://example.com/images/football-16.jpg",
-        "publishedAt": "2024-12-25T15:00:00Z",
-        "content": "Sample content for entry 16 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 17"
-        },
-        "author": "Author 17",
-        "title": "Sample Title 17 for Fashion",
-        "description": "Sample description for entry 17 in Fashion.",
-        "url": "https://example.com/fashion/entry-17",
-        "urlToImage": "https://example.com/images/fashion-17.jpg",
-        "publishedAt": "2024-12-26T16:00:00Z",
-        "content": "Sample content for entry 17 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 18"
-        },
-        "author": "Author 18",
-        "title": "Sample Title 18 for Entertainment",
-        "description": "Sample description for entry 18 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-18",
-        "urlToImage": "https://example.com/images/entertainment-18.jpg",
-        "publishedAt": "2024-12-27T17:00:00Z",
-        "content": "Sample content for entry 18 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 19"
-        },
-        "author": "Author 19",
-        "title": "Sample Title 19 for Football",
-        "description": "Sample description for entry 19 in Football.",
-        "url": "https://example.com/football/entry-19",
-        "urlToImage": "https://example.com/images/football-19.jpg",
-        "publishedAt": "2024-12-28T18:00:00Z",
-        "content": "Sample content for entry 19 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 20"
-        },
-        "author": "Author 20",
-        "title": "Sample Title 20 for Fashion",
-        "description": "Sample description for entry 20 in Fashion.",
-        "url": "https://example.com/fashion/entry-20",
-        "urlToImage": "https://example.com/images/fashion-20.jpg",
-        "publishedAt": "2024-12-29T19:00:00Z",
-        "content": "Sample content for entry 20 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 21"
-        },
-        "author": "Author 21",
-        "title": "Sample Title 21 for Entertainment",
-        "description": "Sample description for entry 21 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-21",
-        "urlToImage": "https://example.com/images/entertainment-21.jpg",
-        "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 21 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 22"
-        },
-        "author": "Author 22",
-        "title": "Sample Title 22 for Football",
-        "description": "Sample description for entry 22 in Football.",
-        "url": "https://example.com/football/entry-22",
-        "urlToImage": "https://example.com/images/football-22.jpg",
-        "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 22 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 23"
-        },
-        "author": "Author 23",
-        "title": "Sample Title 23 for Fashion",
-        "description": "Sample description for entry 23 in Fashion.",
-        "url": "https://example.com/fashion/entry-23",
-        "urlToImage": "https://example.com/images/fashion-23.jpg",
-        "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 23 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 24"
-        },
-        "author": "Author 24",
-        "title": "Sample Title 24 for Entertainment",
-        "description": "Sample description for entry 24 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-24",
-        "urlToImage": "https://example.com/images/entertainment-24.jpg",
-        "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 24 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 25"
-        },
-        "author": "Author 25",
-        "title": "Sample Title 25 for Football",
-        "description": "Sample description for entry 25 in Football.",
-        "url": "https://example.com/football/entry-25",
-        "urlToImage": "https://example.com/images/football-25.jpg",
-        "publishedAt": "2024-12-14T14:00:00Z",
-        "content": "Sample content for entry 25 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 26"
-        },
-        "author": "Author 26",
-        "title": "Sample Title 26 for Fashion",
-        "description": "Sample description for entry 26 in Fashion.",
-        "url": "https://example.com/fashion/entry-26",
-        "urlToImage": "https://example.com/images/fashion-26.jpg",
-        "publishedAt": "2024-12-15T15:00:00Z",
-        "content": "Sample content for entry 26 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 27"
-        },
-        "author": "Author 27",
-        "title": "Sample Title 27 for Entertainment",
-        "description": "Sample description for entry 27 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-27",
-        "urlToImage": "https://example.com/images/entertainment-27.jpg",
-        "publishedAt": "2024-12-16T16:00:00Z",
-        "content": "Sample content for entry 27 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 28"
-        },
-        "author": "Author 28",
-        "title": "Sample Title 28 for Football",
-        "description": "Sample description for entry 28 in Football.",
-        "url": "https://example.com/football/entry-28",
-        "urlToImage": "https://example.com/images/football-28.jpg",
-        "publishedAt": "2024-12-17T17:00:00Z",
-        "content": "Sample content for entry 28 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 29"
-        },
-        "author": "Author 29",
-        "title": "Sample Title 29 for Fashion",
-        "description": "Sample description for entry 29 in Fashion.",
-        "url": "https://example.com/fashion/entry-29",
-        "urlToImage": "https://example.com/images/fashion-29.jpg",
-        "publishedAt": "2024-12-18T18:00:00Z",
-        "content": "Sample content for entry 29 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 30"
-        },
-        "author": "Author 30",
-        "title": "Sample Title 30 for Entertainment",
-        "description": "Sample description for entry 30 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-30",
-        "urlToImage": "https://example.com/images/entertainment-30.jpg",
-        "publishedAt": "2024-12-19T19:00:00Z",
-        "content": "Sample content for entry 30 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 31"
-        },
-        "author": "Author 31",
-        "title": "Sample Title 31 for Football",
-        "description": "Sample description for entry 31 in Football.",
-        "url": "https://example.com/football/entry-31",
-        "urlToImage": "https://example.com/images/football-31.jpg",
-        "publishedAt": "2024-12-20T10:00:00Z",
-        "content": "Sample content for entry 31 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 32"
-        },
-        "author": "Author 32",
-        "title": "Sample Title 32 for Fashion",
-        "description": "Sample description for entry 32 in Fashion.",
-        "url": "https://example.com/fashion/entry-32",
-        "urlToImage": "https://example.com/images/fashion-32.jpg",
-        "publishedAt": "2024-12-21T11:00:00Z",
-        "content": "Sample content for entry 32 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 33"
-        },
-        "author": "Author 33",
-        "title": "Sample Title 33 for Entertainment",
-        "description": "Sample description for entry 33 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-33",
-        "urlToImage": "https://example.com/images/entertainment-33.jpg",
-        "publishedAt": "2024-12-22T12:00:00Z",
-        "content": "Sample content for entry 33 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 34"
-        },
-        "author": "Author 34",
-        "title": "Sample Title 34 for Football",
-        "description": "Sample description for entry 34 in Football.",
-        "url": "https://example.com/football/entry-34",
-        "urlToImage": "https://example.com/images/football-34.jpg",
-        "publishedAt": "2024-12-23T13:00:00Z",
-        "content": "Sample content for entry 34 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 35"
-        },
-        "author": "Author 35",
-        "title": "Sample Title 35 for Fashion",
-        "description": "Sample description for entry 35 in Fashion.",
-        "url": "https://example.com/fashion/entry-35",
-        "urlToImage": "https://example.com/images/fashion-35.jpg",
-        "publishedAt": "2024-12-24T14:00:00Z",
-        "content": "Sample content for entry 35 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 36"
-        },
-        "author": "Author 36",
-        "title": "Sample Title 36 for Entertainment",
-        "description": "Sample description for entry 36 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-36",
-        "urlToImage": "https://example.com/images/entertainment-36.jpg",
-        "publishedAt": "2024-12-25T15:00:00Z",
-        "content": "Sample content for entry 36 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 37"
-        },
-        "author": "Author 37",
-        "title": "Sample Title 37 for Football",
-        "description": "Sample description for entry 37 in Football.",
-        "url": "https://example.com/football/entry-37",
-        "urlToImage": "https://example.com/images/football-37.jpg",
-        "publishedAt": "2024-12-26T16:00:00Z",
-        "content": "Sample content for entry 37 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 38"
-        },
-        "author": "Author 38",
-        "title": "Sample Title 38 for Fashion",
-        "description": "Sample description for entry 38 in Fashion.",
-        "url": "https://example.com/fashion/entry-38",
-        "urlToImage": "https://example.com/images/fashion-38.jpg",
-        "publishedAt": "2024-12-27T17:00:00Z",
-        "content": "Sample content for entry 38 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 39"
-        },
-        "author": "Author 39",
-        "title": "Sample Title 39 for Entertainment",
-        "description": "Sample description for entry 39 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-39",
-        "urlToImage": "https://example.com/images/entertainment-39.jpg",
-        "publishedAt": "2024-12-28T18:00:00Z",
-        "content": "Sample content for entry 39 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 40"
-        },
-        "author": "Author 40",
-        "title": "Sample Title 40 for Football",
-        "description": "Sample description for entry 40 in Football.",
-        "url": "https://example.com/football/entry-40",
-        "urlToImage": "https://example.com/images/football-40.jpg",
-        "publishedAt": "2024-12-29T19:00:00Z",
-        "content": "Sample content for entry 40 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 41"
-        },
-        "author": "Author 41",
-        "title": "Sample Title 41 for Fashion",
-        "description": "Sample description for entry 41 in Fashion.",
-        "url": "https://example.com/fashion/entry-41",
-        "urlToImage": "https://example.com/images/fashion-41.jpg",
-        "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 41 in the Fashion category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 42"
-        },
-        "author": "Author 42",
-        "title": "Sample Title 42 for Entertainment",
-        "description": "Sample description for entry 42 in Entertainment.",
-        "url": "https://example.com/entertainment/entry-42",
-        "urlToImage": "https://example.com/images/entertainment-42.jpg",
-        "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 42 in the Entertainment category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 43"
-        },
-        "author": "Author 43",
-        "title": "Sample Title 43 for Football",
-        "description": "Sample description for entry 43 in Football.",
-        "url": "https://example.com/football/entry-43",
-        "urlToImage": "https://example.com/images/football-43.jpg",
-        "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 43 in the Football category."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Source 44"
-        },
-        "author": "Author 44",
-        "title": "Sample Title 44 for Fashion",
-        "description": "Sample description for entry 44 in Fashion.",
-        "url": "https://example.com/fashion/entry-44",
-        "urlToImage": "https://example.com/images/fashion-44.jpg",
-        "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 44 in the Fashion category."
+        "author": "Liam O'Connor",
+        "title": "Gamification in Education: Engaging Students Like Never Before",
+        "description": "The rise of game-based learning and its impact on student motivation and retention.",
+        "url": "https://edtechmagazine.com/gamification-education",
+        "urlToImage": "https://example.com/images/gamification.jpg",
+        "publishedAt": "2025-01-05T11:00:00Z",
+        "content": "Gamification is becoming a cornerstone of modern education, offering interactive ways to engage students in their learning journeys..."
     },
     {
         "source": {
@@ -1948,5 +1363,655 @@
         "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpWZNI%2FbtsLlLqcgAO%2FM85IFKRmoklsAc2WKJnKek%2Fimg.jpg",
         "publishedAt": "2024-12-17T13:23:47Z",
         "content": "President-elect Trump settled a defamation lawsuit with ABC News for $15 million.\r\nThe suit followed a segment in which George Stephanopoulos inaccurately said Trump had been found civilly liable for\u2026 [+1712 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "BBC Sport"
+        },
+        "author": "Alex Mason",
+        "title": "Champions League Draw Revealed",
+        "description": "The road to the final is set as UEFA reveals the Champions League matchups.",
+        "url": "https://www.bbc.com/sport/football/champions-league-draw",
+        "urlToImage": "https://example.com/images/champions-league.jpg",
+        "publishedAt": "2024-12-19T08:30:00Z",
+        "content": "The UEFA Champions League draw has been announced, and fans are eagerly awaiting..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "The Athletic"
+        },
+        "author": "Liam Parker",
+        "title": "How Technology is Transforming Football",
+        "description": "From VAR to wearable tech, football is evolving faster than ever.",
+        "url": "https://theathletic.com/football/tech-transformation",
+        "urlToImage": "https://example.com/images/football-tech.jpg",
+        "publishedAt": "2024-12-18T14:00:00Z",
+        "content": "The introduction of technology in football has revolutionized the way the game is played and officiated..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Harper's Bazaar"
+        },
+        "author": "Mia Thompson",
+        "title": "2024\u2019s Most Iconic Red Carpet Looks",
+        "description": "A review of the year's most memorable celebrity fashion moments.",
+        "url": "https://www.harpersbazaar.com/fashion/red-carpet-2024",
+        "urlToImage": "https://example.com/images/red-carpet.jpg",
+        "publishedAt": "2024-12-17T10:30:00Z",
+        "content": "From dazzling gowns to avant-garde designs, 2024 has been a year to remember for celebrity fashion..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Marie Claire"
+        },
+        "author": "Olivia Rose",
+        "title": "Sustainable Fashion Brands to Watch",
+        "description": "Meet the eco-friendly brands redefining the fashion industry.",
+        "url": "https://www.marieclaire.com/fashion/sustainable-brands",
+        "urlToImage": "https://example.com/images/sustainable-fashion.jpg",
+        "publishedAt": "2024-12-15T09:00:00Z",
+        "content": "As the world moves toward sustainability, these fashion brands are leading the charge with eco-conscious designs..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Rolling Stone"
+        },
+        "author": "Ethan Clarke",
+        "title": "The Best Albums of 2024",
+        "description": "Our top picks for the best music releases of the year.",
+        "url": "https://www.rollingstone.com/music/best-albums-2024",
+        "urlToImage": "https://example.com/images/best-albums.jpg",
+        "publishedAt": "2024-12-20T13:45:00Z",
+        "content": "2024 has been a remarkable year for music, with incredible albums from artists around the world..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "E! Online"
+        },
+        "author": "Sophia Martinez",
+        "title": "Top 10 TV Shows to Binge This Winter",
+        "description": "Your ultimate guide to the most binge-worthy shows this season.",
+        "url": "https://www.eonline.com/shows/top-10-binge-winter",
+        "urlToImage": "https://example.com/images/binge-worthy.jpg",
+        "publishedAt": "2024-12-18T19:00:00Z",
+        "content": "As the weather gets colder, there's nothing better than cozying up with a great TV show..."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 1"
+        },
+        "author": "Author 1",
+        "title": "Sample Title 1 for Football",
+        "description": "Sample description for entry 1 in Football.",
+        "url": "https://example.com/football/entry-1",
+        "urlToImage": "https://example.com/images/football-1.jpg",
+        "publishedAt": "2024-12-10T10:00:00Z",
+        "content": "Sample content for entry 1 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 2"
+        },
+        "author": "Author 2",
+        "title": "Sample Title 2 for Fashion",
+        "description": "Sample description for entry 2 in Fashion.",
+        "url": "https://example.com/fashion/entry-2",
+        "urlToImage": "https://example.com/images/fashion-2.jpg",
+        "publishedAt": "2024-12-11T11:00:00Z",
+        "content": "Sample content for entry 2 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 3"
+        },
+        "author": "Author 3",
+        "title": "Sample Title 3 for Entertainment",
+        "description": "Sample description for entry 3 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-3",
+        "urlToImage": "https://example.com/images/entertainment-3.jpg",
+        "publishedAt": "2024-12-12T12:00:00Z",
+        "content": "Sample content for entry 3 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 4"
+        },
+        "author": "Author 4",
+        "title": "Sample Title 4 for Football",
+        "description": "Sample description for entry 4 in Football.",
+        "url": "https://example.com/football/entry-4",
+        "urlToImage": "https://example.com/images/football-4.jpg",
+        "publishedAt": "2024-12-13T13:00:00Z",
+        "content": "Sample content for entry 4 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 5"
+        },
+        "author": "Author 5",
+        "title": "Sample Title 5 for Fashion",
+        "description": "Sample description for entry 5 in Fashion.",
+        "url": "https://example.com/fashion/entry-5",
+        "urlToImage": "https://example.com/images/fashion-5.jpg",
+        "publishedAt": "2024-12-14T14:00:00Z",
+        "content": "Sample content for entry 5 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 6"
+        },
+        "author": "Author 6",
+        "title": "Sample Title 6 for Entertainment",
+        "description": "Sample description for entry 6 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-6",
+        "urlToImage": "https://example.com/images/entertainment-6.jpg",
+        "publishedAt": "2024-12-15T15:00:00Z",
+        "content": "Sample content for entry 6 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 7"
+        },
+        "author": "Author 7",
+        "title": "Sample Title 7 for Football",
+        "description": "Sample description for entry 7 in Football.",
+        "url": "https://example.com/football/entry-7",
+        "urlToImage": "https://example.com/images/football-7.jpg",
+        "publishedAt": "2024-12-16T16:00:00Z",
+        "content": "Sample content for entry 7 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 8"
+        },
+        "author": "Author 8",
+        "title": "Sample Title 8 for Fashion",
+        "description": "Sample description for entry 8 in Fashion.",
+        "url": "https://example.com/fashion/entry-8",
+        "urlToImage": "https://example.com/images/fashion-8.jpg",
+        "publishedAt": "2024-12-17T17:00:00Z",
+        "content": "Sample content for entry 8 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 9"
+        },
+        "author": "Author 9",
+        "title": "Sample Title 9 for Entertainment",
+        "description": "Sample description for entry 9 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-9",
+        "urlToImage": "https://example.com/images/entertainment-9.jpg",
+        "publishedAt": "2024-12-18T18:00:00Z",
+        "content": "Sample content for entry 9 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 10"
+        },
+        "author": "Author 10",
+        "title": "Sample Title 10 for Football",
+        "description": "Sample description for entry 10 in Football.",
+        "url": "https://example.com/football/entry-10",
+        "urlToImage": "https://example.com/images/football-10.jpg",
+        "publishedAt": "2024-12-19T19:00:00Z",
+        "content": "Sample content for entry 10 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 11"
+        },
+        "author": "Author 11",
+        "title": "Sample Title 11 for Fashion",
+        "description": "Sample description for entry 11 in Fashion.",
+        "url": "https://example.com/fashion/entry-11",
+        "urlToImage": "https://example.com/images/fashion-11.jpg",
+        "publishedAt": "2024-12-20T10:00:00Z",
+        "content": "Sample content for entry 11 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 12"
+        },
+        "author": "Author 12",
+        "title": "Sample Title 12 for Entertainment",
+        "description": "Sample description for entry 12 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-12",
+        "urlToImage": "https://example.com/images/entertainment-12.jpg",
+        "publishedAt": "2024-12-21T11:00:00Z",
+        "content": "Sample content for entry 12 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 13"
+        },
+        "author": "Author 13",
+        "title": "Sample Title 13 for Football",
+        "description": "Sample description for entry 13 in Football.",
+        "url": "https://example.com/football/entry-13",
+        "urlToImage": "https://example.com/images/football-13.jpg",
+        "publishedAt": "2024-12-22T12:00:00Z",
+        "content": "Sample content for entry 13 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 14"
+        },
+        "author": "Author 14",
+        "title": "Sample Title 14 for Fashion",
+        "description": "Sample description for entry 14 in Fashion.",
+        "url": "https://example.com/fashion/entry-14",
+        "urlToImage": "https://example.com/images/fashion-14.jpg",
+        "publishedAt": "2024-12-23T13:00:00Z",
+        "content": "Sample content for entry 14 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 15"
+        },
+        "author": "Author 15",
+        "title": "Sample Title 15 for Entertainment",
+        "description": "Sample description for entry 15 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-15",
+        "urlToImage": "https://example.com/images/entertainment-15.jpg",
+        "publishedAt": "2024-12-24T14:00:00Z",
+        "content": "Sample content for entry 15 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 16"
+        },
+        "author": "Author 16",
+        "title": "Sample Title 16 for Football",
+        "description": "Sample description for entry 16 in Football.",
+        "url": "https://example.com/football/entry-16",
+        "urlToImage": "https://example.com/images/football-16.jpg",
+        "publishedAt": "2024-12-25T15:00:00Z",
+        "content": "Sample content for entry 16 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 17"
+        },
+        "author": "Author 17",
+        "title": "Sample Title 17 for Fashion",
+        "description": "Sample description for entry 17 in Fashion.",
+        "url": "https://example.com/fashion/entry-17",
+        "urlToImage": "https://example.com/images/fashion-17.jpg",
+        "publishedAt": "2024-12-26T16:00:00Z",
+        "content": "Sample content for entry 17 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 18"
+        },
+        "author": "Author 18",
+        "title": "Sample Title 18 for Entertainment",
+        "description": "Sample description for entry 18 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-18",
+        "urlToImage": "https://example.com/images/entertainment-18.jpg",
+        "publishedAt": "2024-12-27T17:00:00Z",
+        "content": "Sample content for entry 18 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 19"
+        },
+        "author": "Author 19",
+        "title": "Sample Title 19 for Football",
+        "description": "Sample description for entry 19 in Football.",
+        "url": "https://example.com/football/entry-19",
+        "urlToImage": "https://example.com/images/football-19.jpg",
+        "publishedAt": "2024-12-28T18:00:00Z",
+        "content": "Sample content for entry 19 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 20"
+        },
+        "author": "Author 20",
+        "title": "Sample Title 20 for Fashion",
+        "description": "Sample description for entry 20 in Fashion.",
+        "url": "https://example.com/fashion/entry-20",
+        "urlToImage": "https://example.com/images/fashion-20.jpg",
+        "publishedAt": "2024-12-29T19:00:00Z",
+        "content": "Sample content for entry 20 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 21"
+        },
+        "author": "Author 21",
+        "title": "Sample Title 21 for Entertainment",
+        "description": "Sample description for entry 21 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-21",
+        "urlToImage": "https://example.com/images/entertainment-21.jpg",
+        "publishedAt": "2024-12-10T10:00:00Z",
+        "content": "Sample content for entry 21 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 22"
+        },
+        "author": "Author 22",
+        "title": "Sample Title 22 for Football",
+        "description": "Sample description for entry 22 in Football.",
+        "url": "https://example.com/football/entry-22",
+        "urlToImage": "https://example.com/images/football-22.jpg",
+        "publishedAt": "2024-12-11T11:00:00Z",
+        "content": "Sample content for entry 22 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 23"
+        },
+        "author": "Author 23",
+        "title": "Sample Title 23 for Fashion",
+        "description": "Sample description for entry 23 in Fashion.",
+        "url": "https://example.com/fashion/entry-23",
+        "urlToImage": "https://example.com/images/fashion-23.jpg",
+        "publishedAt": "2024-12-12T12:00:00Z",
+        "content": "Sample content for entry 23 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 24"
+        },
+        "author": "Author 24",
+        "title": "Sample Title 24 for Entertainment",
+        "description": "Sample description for entry 24 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-24",
+        "urlToImage": "https://example.com/images/entertainment-24.jpg",
+        "publishedAt": "2024-12-13T13:00:00Z",
+        "content": "Sample content for entry 24 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 25"
+        },
+        "author": "Author 25",
+        "title": "Sample Title 25 for Football",
+        "description": "Sample description for entry 25 in Football.",
+        "url": "https://example.com/football/entry-25",
+        "urlToImage": "https://example.com/images/football-25.jpg",
+        "publishedAt": "2024-12-14T14:00:00Z",
+        "content": "Sample content for entry 25 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 26"
+        },
+        "author": "Author 26",
+        "title": "Sample Title 26 for Fashion",
+        "description": "Sample description for entry 26 in Fashion.",
+        "url": "https://example.com/fashion/entry-26",
+        "urlToImage": "https://example.com/images/fashion-26.jpg",
+        "publishedAt": "2024-12-15T15:00:00Z",
+        "content": "Sample content for entry 26 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 27"
+        },
+        "author": "Author 27",
+        "title": "Sample Title 27 for Entertainment",
+        "description": "Sample description for entry 27 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-27",
+        "urlToImage": "https://example.com/images/entertainment-27.jpg",
+        "publishedAt": "2024-12-16T16:00:00Z",
+        "content": "Sample content for entry 27 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 28"
+        },
+        "author": "Author 28",
+        "title": "Sample Title 28 for Football",
+        "description": "Sample description for entry 28 in Football.",
+        "url": "https://example.com/football/entry-28",
+        "urlToImage": "https://example.com/images/football-28.jpg",
+        "publishedAt": "2024-12-17T17:00:00Z",
+        "content": "Sample content for entry 28 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 29"
+        },
+        "author": "Author 29",
+        "title": "Sample Title 29 for Fashion",
+        "description": "Sample description for entry 29 in Fashion.",
+        "url": "https://example.com/fashion/entry-29",
+        "urlToImage": "https://example.com/images/fashion-29.jpg",
+        "publishedAt": "2024-12-18T18:00:00Z",
+        "content": "Sample content for entry 29 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 30"
+        },
+        "author": "Author 30",
+        "title": "Sample Title 30 for Entertainment",
+        "description": "Sample description for entry 30 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-30",
+        "urlToImage": "https://example.com/images/entertainment-30.jpg",
+        "publishedAt": "2024-12-19T19:00:00Z",
+        "content": "Sample content for entry 30 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 31"
+        },
+        "author": "Author 31",
+        "title": "Sample Title 31 for Football",
+        "description": "Sample description for entry 31 in Football.",
+        "url": "https://example.com/football/entry-31",
+        "urlToImage": "https://example.com/images/football-31.jpg",
+        "publishedAt": "2024-12-20T10:00:00Z",
+        "content": "Sample content for entry 31 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 32"
+        },
+        "author": "Author 32",
+        "title": "Sample Title 32 for Fashion",
+        "description": "Sample description for entry 32 in Fashion.",
+        "url": "https://example.com/fashion/entry-32",
+        "urlToImage": "https://example.com/images/fashion-32.jpg",
+        "publishedAt": "2024-12-21T11:00:00Z",
+        "content": "Sample content for entry 32 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 33"
+        },
+        "author": "Author 33",
+        "title": "Sample Title 33 for Entertainment",
+        "description": "Sample description for entry 33 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-33",
+        "urlToImage": "https://example.com/images/entertainment-33.jpg",
+        "publishedAt": "2024-12-22T12:00:00Z",
+        "content": "Sample content for entry 33 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 34"
+        },
+        "author": "Author 34",
+        "title": "Sample Title 34 for Football",
+        "description": "Sample description for entry 34 in Football.",
+        "url": "https://example.com/football/entry-34",
+        "urlToImage": "https://example.com/images/football-34.jpg",
+        "publishedAt": "2024-12-23T13:00:00Z",
+        "content": "Sample content for entry 34 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 35"
+        },
+        "author": "Author 35",
+        "title": "Sample Title 35 for Fashion",
+        "description": "Sample description for entry 35 in Fashion.",
+        "url": "https://example.com/fashion/entry-35",
+        "urlToImage": "https://example.com/images/fashion-35.jpg",
+        "publishedAt": "2024-12-24T14:00:00Z",
+        "content": "Sample content for entry 35 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 36"
+        },
+        "author": "Author 36",
+        "title": "Sample Title 36 for Entertainment",
+        "description": "Sample description for entry 36 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-36",
+        "urlToImage": "https://example.com/images/entertainment-36.jpg",
+        "publishedAt": "2024-12-25T15:00:00Z",
+        "content": "Sample content for entry 36 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 37"
+        },
+        "author": "Author 37",
+        "title": "Sample Title 37 for Football",
+        "description": "Sample description for entry 37 in Football.",
+        "url": "https://example.com/football/entry-37",
+        "urlToImage": "https://example.com/images/football-37.jpg",
+        "publishedAt": "2024-12-26T16:00:00Z",
+        "content": "Sample content for entry 37 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 38"
+        },
+        "author": "Author 38",
+        "title": "Sample Title 38 for Fashion",
+        "description": "Sample description for entry 38 in Fashion.",
+        "url": "https://example.com/fashion/entry-38",
+        "urlToImage": "https://example.com/images/fashion-38.jpg",
+        "publishedAt": "2024-12-27T17:00:00Z",
+        "content": "Sample content for entry 38 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 39"
+        },
+        "author": "Author 39",
+        "title": "Sample Title 39 for Entertainment",
+        "description": "Sample description for entry 39 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-39",
+        "urlToImage": "https://example.com/images/entertainment-39.jpg",
+        "publishedAt": "2024-12-28T18:00:00Z",
+        "content": "Sample content for entry 39 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 40"
+        },
+        "author": "Author 40",
+        "title": "Sample Title 40 for Football",
+        "description": "Sample description for entry 40 in Football.",
+        "url": "https://example.com/football/entry-40",
+        "urlToImage": "https://example.com/images/football-40.jpg",
+        "publishedAt": "2024-12-29T19:00:00Z",
+        "content": "Sample content for entry 40 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 41"
+        },
+        "author": "Author 41",
+        "title": "Sample Title 41 for Fashion",
+        "description": "Sample description for entry 41 in Fashion.",
+        "url": "https://example.com/fashion/entry-41",
+        "urlToImage": "https://example.com/images/fashion-41.jpg",
+        "publishedAt": "2024-12-10T10:00:00Z",
+        "content": "Sample content for entry 41 in the Fashion category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 42"
+        },
+        "author": "Author 42",
+        "title": "Sample Title 42 for Entertainment",
+        "description": "Sample description for entry 42 in Entertainment.",
+        "url": "https://example.com/entertainment/entry-42",
+        "urlToImage": "https://example.com/images/entertainment-42.jpg",
+        "publishedAt": "2024-12-11T11:00:00Z",
+        "content": "Sample content for entry 42 in the Entertainment category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 43"
+        },
+        "author": "Author 43",
+        "title": "Sample Title 43 for Football",
+        "description": "Sample description for entry 43 in Football.",
+        "url": "https://example.com/football/entry-43",
+        "urlToImage": "https://example.com/images/football-43.jpg",
+        "publishedAt": "2024-12-12T12:00:00Z",
+        "content": "Sample content for entry 43 in the Football category."
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Source 44"
+        },
+        "author": "Author 44",
+        "title": "Sample Title 44 for Fashion",
+        "description": "Sample description for entry 44 in Fashion.",
+        "url": "https://example.com/fashion/entry-44",
+        "urlToImage": "https://example.com/images/fashion-44.jpg",
+        "publishedAt": "2024-12-13T13:00:00Z",
+        "content": "Sample content for entry 44 in the Fashion category."
     }
 ]

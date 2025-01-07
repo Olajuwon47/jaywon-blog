@@ -10,6 +10,7 @@ import Mission from './pages/Mission.js';
 import About from './pages/About.js';
 import Price from './pages/Price.js';
 import Add from './pages/Add.js';
+import Notfound from './notfound.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,12 +19,14 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
                 <Route  >
+                  <Route path="*" element={< Notfound/>} />
                   <Route path="blog" element={<Blog/>} />
                   <Route path="About" element={<About/>} />
                   <Route path="Mission" element={<Mission/>} />
                   <Route path="contact" element={<Contact/>} />
                   <Route path="Price" element={<Price/>} />
-                  <Route path="Add" element={<Add Blog/>} />
+                  <Route path="Add" element={<Add/>} />
+                 
                 </Route>
     </Routes>
   </BrowserRouter>

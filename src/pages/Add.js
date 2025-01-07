@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 import { ChevronDownIcon } from '@heroicons/react/16/solid';
+import { useNavigate } from "react-router";
 
 export default function Create() {
   const [title, setTitle] = useState('');
@@ -12,6 +13,8 @@ export default function Create() {
   const [content, setContent] = useState('');
   const [blog, setBlog] = useState('Business, Football, Entertainment, Education, Fashion, Technology')
   const [publishedAt, setPublishedAt] = useState('');
+  const [ispending, setIsPending] = useState(false);
+  const navigate= useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,6 +29,8 @@ export default function Create() {
       blog,
       publishedAt,
     };
+    setIsPending(true)
+    
     //console.log(Blog);
    fetch('http://localhost:3000/Data/blog.json',{
     method:'POST',
@@ -33,6 +38,8 @@ export default function Create() {
     body:JSON.stringify(Blog),
    }).then(() =>{
     console.log('New Blog Added')
+    setIsPending(false)
+    navigate.push('/')
    })
   };
   return (
@@ -68,7 +75,7 @@ export default function Create() {
                 onChange={(e) => setName(e.target.value)}
                 required
                 autoComplete="name"
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-lime-300"
               />
             </div>
           </div>
@@ -156,7 +163,7 @@ export default function Create() {
               <input
                 id="publishedAt"
                 name="publishedAt"
-                type="time"
+                type="datetime-local"
                 value={publishedAt}
               onChange={(e) => setPublishedAt(e.target.value)}
                 autoComplete="publishedAt"
@@ -181,12 +188,13 @@ export default function Create() {
               />
             </div>
           </div>
-          <div className="sm:col-span-2">
+          <div >
             <label htmlFor="blog" className="block text-sm/6 font-semibold text-gray-900">
               Blog
             </label>
             <div className="mt-2.5">
-              <div className="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
+              <div className="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline
+               has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-lime-300">
                 <div className="grid shrink-0 grid-cols-1 focus-within:relative">
                   <select
                     id="blog"
@@ -196,8 +204,11 @@ export default function Create() {
                     required
                     autoComplete="blog"
                     aria-label="Blog"
-                    className="col-start-1 row-start-1 w-full appearance-none rounded-md py-2 pl-3.5 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                    title="Choose a blog category"
+                    className="col-start-1 row-start-1 w-fit appearance-none rounded-md py-1.5 pl-3.5 pr-7 text-base text-gray-500
+                     placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-lime-600 sm:text-sm/6"
                   >
+                    <option value="">Select a category</option>
                     <option>Business</option>
                     <option>Football</option>
                     <option>Fashion</option>
@@ -212,15 +223,21 @@ export default function Create() {
                 </div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
         <div className="mt-5">
-          <button
-            type="submit"
-            className="block w-50 rounded-md bg-lime-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-lime-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        { !ispending && <button
+            type="Submit"
+            className="block w-50 rounded-md bg-lime-50 px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-lime-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Submit
-          </button>
+            Add blog
+          </button>}
+          { ispending && <button disabled
+            type="Submit"
+            className="block w-50 rounded-md bg-lime-50 px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-lime-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+           Adding blog........
+          </button>}
         </div>
       </form>
     </div>

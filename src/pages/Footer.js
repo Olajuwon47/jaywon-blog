@@ -5,7 +5,7 @@ export default function Footer() {
       <footer className="bg-lime-200  text-black p-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h1 class="text-lg font-semibold mb-3">Features</h1>
+            <h1 className="text-lg font-semibold mb-3">Features</h1>
             <ul className="space-y-2">
               <li><a href="/About" className=" text-black hover:text-white">About</a></li>
               <li><a href="/Terms" className=" text-black hover:text-white">Terms</a></li>
