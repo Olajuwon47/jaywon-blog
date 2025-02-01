@@ -32,7 +32,7 @@ export default function Create() {
     setIsPending(true)
     
     //console.log(Blog);
-   fetch('http://localhost:3000/Data/blog.json',{
+   fetch('http://localhost:3001/Data/blog',{
     method:'POST',
     headers:{"Content-Type": "application/json" },
     body:JSON.stringify(Blog),
