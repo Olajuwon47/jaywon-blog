@@ -10,18 +10,18 @@ const PORT = 3001;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use('/Date', express.static(path.join(__dirname, 'public', 'Data', 'blog.json')));
+app.use('/blogs', express.static(path.join(__dirname, 'public', 'Data', 'blogs.json')));
 
 app.get('/', (req, res) => {
-    res.send('Server is running. Use /api/products to access product data.');
+    res.send('Server is running. Use /api/blogs to access blog data.');
   });
 
   app.post('/', (req, res) => {
-    res.send('Server is running. Use /api/products to access product data.');
+    res.send('Server is running. Use /api/blogs to access blog data.');
   });
 
   app.delete('/', (req, res) => {
-    res.send('Server is running. Use /api/products to access product data.');
+    res.send('Server is running. Use /api/blogs to access blog data.');
   });
 
 

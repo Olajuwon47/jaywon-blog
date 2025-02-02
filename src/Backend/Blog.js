@@ -1,62 +1,40 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
-//const path = require('path');
-const blog = require('./blog.json'); 
+const path = require('path');
+//const blog = require('./blog.json'); 
 
 const BLOG_FILE = path.join(__dirname, 'blogs.json');
 
+if (!fs.existsSync(BLOG_FILE)) {
+  fs.writeFileSync(BLOG_FILE, '[]', 'utf8');
+}
+
+let blog = require('./blogs.json');
+
 // GET: Fetch all blogs
-router.get('/blogs', (req, res) => {
-    fs.readFile(BLOG_FILE, 'utf8', (err, data) => {
-        if (err) {
-            return res.status(500).json({ message: "Error reading blog file" });
-        }
-        res.json(JSON.parse(data));
-    });
+router.get('/', (req, res) => {
+    res.json(blog);
 });
 
 // POST: Add a new blog
-router.post('/blogs', (req, res) => {
-    const newBlog = req.body;
-
-    fs.readFile(BLOG_FILE, 'utf8', (err, data) => {
-        if (err) {
-            return res.status(500).json({ message: "Error reading blog file" });
-        }
-
-        let blogs = JSON.parse(data);
-        newBlog.id = blogs.length ? blogs[blogs.length - 1].id + 1 : 1; // Assign a new ID
-        blogs.push(newBlog);
-
-        fs.writeFile(BLOG_FILE, JSON.stringify(blogs, null, 2), (err) => {
-            if (err) {
-                return res.status(500).json({ message: "Error saving blog" });
-            }
-            res.status(200).json({ message: "Blog added", blog: newBlog });
-        });
-    });
+router.post('/', (req, res) => {
+    const newBlog ={
+    id: Date.now().toString(),
+    ...req.body,
+  };
+  blog.push(newBlog);
+  fs.writeFileSync(BLOG_FILE, JSON.stringify(blog, null, 2));
+  res.status(201).json(newBlog);
 });
 
 // DELETE: Remove a blog by ID
-router.delete('/blogs/:id', (req, res) => {
-    const blogId = parseInt(req.params.id);
-
-    fs.readFile(BLOG_FILE, 'utf8', (err, data) => {
-        if (err) {
-            return res.status(500).json({ message: "Error reading blog file" });
-        }
-
-        let blogs = JSON.parse(data);
-        blogs = blogs.filter(blog => blog.id !== blogId);
-
-        fs.writeFile(BLOG_FILE, JSON.stringify(blogs, null, 2), (err) => {
-            if (err) {
-                return res.status(500).json({ message: "Error saving blog" });
-            }
-            res.json({ message: "Blog deleted" });
-        });
-    });
+router.delete('/:id', (req, res) => {
+    //const blogId = parseInt(req.params.id);
+    const { id } = req.params;
+  blog = blog.filter(blog => blog.id !== id);
+  fs.writeFileSync(BLOG_FILE, JSON.stringify(blog, null, 2));
+  res.status(204).send();
 });
 
 module.exports = router;

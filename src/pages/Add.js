@@ -31,7 +31,6 @@ export default function Create() {
     };
     setIsPending(true)
     
-    //console.log(Blog);
    fetch('http://localhost:3001/api/blogs',{
     method:'POST',
     headers:{"Content-Type": "application/json" },

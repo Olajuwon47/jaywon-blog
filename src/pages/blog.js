@@ -6,7 +6,7 @@ export default function Bloglist() {
   const navigate= useNavigate()
 
   const handleclick = (id) => {
-    fetch('http://localhost:3001/api/blogs'+ blogs.id, {
+    fetch(`http://localhost:3001/api/blogs/${id}`/*+ blogs.id*/, {
       metod:'DELETE'
     }).then(()=>{
       navigate.push('/')
@@ -20,8 +20,7 @@ export default function Bloglist() {
   useEffect(() => {
     async function fetchBlogs() {
       try {
-        // Check for cached data in localStorage
-        const cachedData = localStorage.getItem('/Data/blog.json');
+       /* const cachedData = localStorage.getItem('/Data/blog.json');
         if (cachedData) {
           try {
             const parsedData = JSON.parse(cachedData);
@@ -31,9 +30,8 @@ export default function Bloglist() {
           } catch (error) {
             console.error('Error parsing cached data:', error);
           }
-        }
+        }*/
 
-        // Fetch data from the server
         const response = await fetch('http://localhost:3001/api/blogs');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
