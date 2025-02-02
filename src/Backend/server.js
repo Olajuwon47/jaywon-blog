@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
     res.send('Server is running. Use /api/products to access product data.');
   });
 
-// Use the product routes at /api/products
-app.use('/api/blog', blogRoutes);
+
+app.use('/api/blogs', blogRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);

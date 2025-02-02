@@ -18,7 +18,7 @@ export default function Create() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const Blog = {
+    const newBlog = {
       title,
       name,
       author,
@@ -32,10 +32,10 @@ export default function Create() {
     setIsPending(true)
     
     //console.log(Blog);
-   fetch('http://localhost:3001/Data/blog',{
+   fetch('http://localhost:3001/api/blogs',{
     method:'POST',
     headers:{"Content-Type": "application/json" },
-    body:JSON.stringify(Blog),
+    body:JSON.stringify(newBlog),
    }).then(() =>{
     console.log('New Blog Added')
     setIsPending(false)

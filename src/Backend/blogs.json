@@ -10,7 +10,9 @@
         "url": "https://techcrunch.com/ai-revolution-education",
         "urlToImage": "https://example.com/images/ai-education.jpg",
         "publishedAt": "2025-01-01T10:00:00Z",
-        "content": "Artificial intelligence has started reshaping the educational landscape with tools that cater to individual learning styles..."
+        "content": "Artificial intelligence has started reshaping the educational landscape with tools that cater to individual learning styles...",
+        "id": 1,
+        "imageId": "img_1"
     },
     {
         "source": {
@@ -23,7 +25,9 @@
         "url": "https://forbes.com/tech-innovations-2025",
         "urlToImage": "https://example.com/images/tech-innovations.jpg",
         "publishedAt": "2025-01-02T12:30:00Z",
-        "content": "2025 is shaping up to be a groundbreaking year for technology with advancements in AI, renewable energy, and more..."
+        "content": "2025 is shaping up to be a groundbreaking year for technology with advancements in AI, renewable energy, and more...",
+        "id": 2,
+        "imageId": "img_2"
     },
     {
         "source": {
@@ -36,7 +40,9 @@
         "url": "https://hollywoodreporter.com/movies-2025-preview",
         "urlToImage": "https://example.com/images/movies-2025.jpg",
         "publishedAt": "2025-01-03T14:00:00Z",
-        "content": "2025 is packed with cinematic gems, including sequels to fan favorites and groundbreaking new stories..."
+        "content": "2025 is packed with cinematic gems, including sequels to fan favorites and groundbreaking new stories...",
+        "id": 3,
+        "imageId": "img_3"
     },
     {
         "source": {
@@ -49,7 +55,9 @@
         "url": "https://businessinsider.com/small-business-digital-strategies",
         "urlToImage": "https://example.com/images/small-business.jpg",
         "publishedAt": "2025-01-04T09:45:00Z",
-        "content": "With the rise of e-commerce and digital tools, small businesses have more opportunities than ever to scale and succeed..."
+        "content": "With the rise of e-commerce and digital tools, small businesses have more opportunities than ever to scale and succeed...",
+        "id": 4,
+        "imageId": "img_4"
     },
     {
         "source": {
@@ -62,7 +70,9 @@
         "url": "https://edtechmagazine.com/gamification-education",
         "urlToImage": "https://example.com/images/gamification.jpg",
         "publishedAt": "2025-01-05T11:00:00Z",
-        "content": "Gamification is becoming a cornerstone of modern education, offering interactive ways to engage students in their learning journeys..."
+        "content": "Gamification is becoming a cornerstone of modern education, offering interactive ways to engage students in their learning journeys...",
+        "id": 5,
+        "imageId": "img_5"
     },
     {
         "source": {
@@ -75,7 +85,9 @@
         "url": "https://www.fark.com/comments/13497070/Tire-company-recalls-over-half-a-million-winter-tires-because-they-dont-have-sufficient-traction-in-snow-Unclear-why-Tesla-didnt-just-buy-them-all-to-use-in-future-Cybertrucks",
         "urlToImage": "https://usrimg-full.fark.net/t/tK/fark_tK5V4cc4ti1dXQx6DRGvIodWh5Y.png?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1734930000&Signature=QOOxrSXwzfza4RK5bvarQMyj%2FmU%3D",
         "publishedAt": "2024-12-17T20:41:58Z",
-        "content": "The safety agency says tires without sufficient snow traction can increase the risk of a crash.Prinx Chengshan is working on a way to fix the problem. Owners will be notified by letter starting Feb. \u2026 [+203 chars]"
+        "content": "The safety agency says tires without sufficient snow traction can increase the risk of a crash.Prinx Chengshan is working on a way to fix the problem. Owners will be notified by letter starting Feb. \u2026 [+203 chars]",
+        "id": 6,
+        "imageId": "img_6"
     },
     {
         "source": {
@@ -88,7 +100,9 @@
         "url": "https://www.vanityfair.com/news/story/trump-says-federal-employees-who-dont-work-in-the-office-will-be-fired",
         "urlToImage": "https://media.vanityfair.com/photos/6761d96ba90c62a9d2e6fafa/16:9/w_1280,c_limit/2182948673",
         "publishedAt": "2024-12-17T20:08:01Z",
-        "content": "Late last month, Elon Musk and Vivek Ramaswamy, a.k.a. the leaders of Donald Trumps newly formed Department of Government Efficiency, wrote an op-ed proposing that the federal government fire any fed\u2026 [+2220 chars]"
+        "content": "Late last month, Elon Musk and Vivek Ramaswamy, a.k.a. the leaders of Donald Trumps newly formed Department of Government Efficiency, wrote an op-ed proposing that the federal government fire any fed\u2026 [+2220 chars]",
+        "id": 7,
+        "imageId": "img_7"
     },
     {
         "source": {
@@ -101,7 +115,9 @@
         "url": "https://researchbuzz.me/2024/12/17/google-whisk-openai-youtube-tv-more-tuesday-afternoon-researchbuzz-december-17-2024/",
         "urlToImage": "https://s0.wp.com/i/blank.jpg",
         "publishedAt": "2024-12-17T20:00:53Z",
-        "content": "NEW RESOURCES \r\nGoogle Blog: Whisk: Visualize and remix ideas using images and AI. \u201cToday in the US, were launching our newest experiment in generative AI: Whisk. Instead of generating images with lo\u2026 [+4608 chars]"
+        "content": "NEW RESOURCES \r\nGoogle Blog: Whisk: Visualize and remix ideas using images and AI. \u201cToday in the US, were launching our newest experiment in generative AI: Whisk. Instead of generating images with lo\u2026 [+4608 chars]",
+        "id": 8,
+        "imageId": "img_8"
     },
     {
         "source": {
@@ -114,7 +130,9 @@
         "url": "https://www.androidcentral.com/wearables/wear-os-still-a-second-rate-platform-to-watchos",
         "urlToImage": "https://cdn.mos.cms.futurecdn.net/c54eNczrAxSswMKvKbw7kC-1200-80.jpg",
         "publishedAt": "2024-12-17T20:00:00Z",
-        "content": "I'll be the one to say it: Wear OS is officially good now. The combination of Wear OS 5 software and Pixel Watch or Galaxy Watch hardware has made the best Wear OS smartwatches real Apple Watch compe\u2026 [+4967 chars]"
+        "content": "I'll be the one to say it: Wear OS is officially good now. The combination of Wear OS 5 software and Pixel Watch or Galaxy Watch hardware has made the best Wear OS smartwatches real Apple Watch compe\u2026 [+4967 chars]",
+        "id": 9,
+        "imageId": "img_9"
     },
     {
         "source": {
@@ -127,7 +145,9 @@
         "url": "https://www.thewrap.com/rachel-maddow-trump-musk-tesla-self-driving-car-crash-reports-msnbc/",
         "urlToImage": "https://www.thewrap.com/wp-content/uploads/2024/12/rump-2.jpg",
         "publishedAt": "2024-12-17T19:59:18Z",
-        "content": "Rachel Maddow said Donald Trumps move to scrap self-driving car crash data reporting is only a problem solved for Tesla and its CEO Elon Musk, as the billionaires automobile company made up 40 out of\u2026 [+2459 chars]"
+        "content": "Rachel Maddow said Donald Trumps move to scrap self-driving car crash data reporting is only a problem solved for Tesla and its CEO Elon Musk, as the billionaires automobile company made up 40 out of\u2026 [+2459 chars]",
+        "id": 10,
+        "imageId": "img_10"
     },
     {
         "source": {
@@ -140,7 +160,9 @@
         "url": "https://biztoc.com/x/e53798ef1feee3c6",
         "urlToImage": "https://biztoc.com/cdn/808/og.png",
         "publishedAt": "2024-12-17T19:57:15Z",
-        "content": "The Tesla CEO is the first person in history with a net worth of more than $400 billion as shares in the EV giant spiked following Trump's election victory.\r\nThis story appeared on newsweek.com, 2024\u2026 [+15 chars]"
+        "content": "The Tesla CEO is the first person in history with a net worth of more than $400 billion as shares in the EV giant spiked following Trump's election victory.\r\nThis story appeared on newsweek.com, 2024\u2026 [+15 chars]",
+        "id": 11,
+        "imageId": "img_11"
     },
     {
         "source": {
@@ -153,7 +175,9 @@
         "url": "https://www.dailydot.com/debug/tesla-full-self-driving-rear-end-accident/",
         "urlToImage": "https://uploads.dailydot.com/2024/12/tesla_owner_blames_accident.jpg?auto=compress&fm=pjpg",
         "publishedAt": "2024-12-17T19:53:22Z",
-        "content": "A Tesla driver is vigorously defending his vehicle after getting into an accident while in self-driving mode.\r\nIn a post to X on Wednesday, Tesla enthusiast Bradford Ferguson shared footage of what a\u2026 [+4558 chars]"
+        "content": "A Tesla driver is vigorously defending his vehicle after getting into an accident while in self-driving mode.\r\nIn a post to X on Wednesday, Tesla enthusiast Bradford Ferguson shared footage of what a\u2026 [+4558 chars]",
+        "id": 12,
+        "imageId": "img_12"
     },
     {
         "source": {
@@ -166,7 +190,9 @@
         "url": "https://markets.businessinsider.com/news/stocks/tesla-stock-price-record-high-wall-street-bullish-price-targets-2024-12",
         "urlToImage": "https://i.insider.com/6733749b5ec9bfa3d63d81e6?width=1200&format=jpeg",
         "publishedAt": "2024-12-17T19:52:05Z",
-        "content": "Tesla stock hit a new all-time high for the fifth day in a row on Tuesday, surging as much as 5% to $483.99.\r\nGains have continued to roll in for Tesla stock since President-elect Donald Trump won a \u2026 [+2562 chars]"
+        "content": "Tesla stock hit a new all-time high for the fifth day in a row on Tuesday, surging as much as 5% to $483.99.\r\nGains have continued to roll in for Tesla stock since President-elect Donald Trump won a \u2026 [+2562 chars]",
+        "id": 13,
+        "imageId": "img_13"
     },
     {
         "source": {
@@ -179,7 +205,9 @@
         "url": "https://en.protothema.gr/2024/12/17/musk-vs-reuters-they-took-300-million-to-investigate-me/",
         "urlToImage": "https://en.protothema.gr/wp-content/uploads/2024/12/elon-musk-1.jpg-1.jpg",
         "publishedAt": "2024-12-17T19:50:05Z",
-        "content": "Elon Musk has been targeting the legacy media in recent weeks, particularly after the U.S. elections, with Reuters being his latest focus.\r\nThe head of Tesla, SpaceX, and the social network X shared \u2026 [+907 chars]"
+        "content": "Elon Musk has been targeting the legacy media in recent weeks, particularly after the U.S. elections, with Reuters being his latest focus.\r\nThe head of Tesla, SpaceX, and the social network X shared \u2026 [+907 chars]",
+        "id": 14,
+        "imageId": "img_14"
     },
     {
         "source": {
@@ -192,7 +220,9 @@
         "url": "https://www.investing.com/news/stock-market-news/biden-administration-fails-to-meet-government-fleet-ev-targets--report-3777506",
         "urlToImage": "https://i-invdn-com.investing.com/news/LYNXMPEC0409P_L.jpg",
         "publishedAt": "2024-12-17T19:47:08Z",
-        "content": "By David Shepardson\r\nWASHINGTON (Reuters) -U.S. government agencies failed to meet the Biden administration's fleet electric vehicle purchase targets and bought more than four times as many gas-power\u2026 [+2112 chars]"
+        "content": "By David Shepardson\r\nWASHINGTON (Reuters) -U.S. government agencies failed to meet the Biden administration's fleet electric vehicle purchase targets and bought more than four times as many gas-power\u2026 [+2112 chars]",
+        "id": 15,
+        "imageId": "img_15"
     },
     {
         "source": {
@@ -205,7 +235,9 @@
         "url": "https://www.newsweek.com/elon-musk-now-richer-jeff-bezos-mark-zuckerberg-combined-2002160",
         "urlToImage": "https://d.newsweek.com/en/full/2546444/donald-trump-watches-spacex-launch.jpg",
         "publishedAt": "2024-12-17T19:46:48Z",
-        "content": "What's New\r\nElon Musk, the CEO of Tesla and SpaceX, now has a net worth of $474 billion, making him wealthier than Amazon founder Jeff Bezos and Meta CEO Mark Zuckerberg combined, according to the Bl\u2026 [+5140 chars]"
+        "content": "What's New\r\nElon Musk, the CEO of Tesla and SpaceX, now has a net worth of $474 billion, making him wealthier than Amazon founder Jeff Bezos and Meta CEO Mark Zuckerberg combined, according to the Bl\u2026 [+5140 chars]",
+        "id": 16,
+        "imageId": "img_16"
     },
     {
         "source": {
@@ -218,7 +250,9 @@
         "url": "https://www.ibtimes.com/japans-honda-nissan-begin-merger-talks-report-3755876",
         "urlToImage": "https://d.ibtimes.com/en/full/4569803/honda-nissan-had-already-deepened-ties-earlier-2024-when-they-agreed-explore-strategic.jpg",
         "publishedAt": "2024-12-17T19:45:29Z",
-        "content": "Japanese auto giants Honda Motor and Nissan Motor will enter talks on a merger aimed at helping them compete against Tesla and other electric vehicle makers, newspaper Nikkei reported early Wednesday\u2026 [+2225 chars]"
+        "content": "Japanese auto giants Honda Motor and Nissan Motor will enter talks on a merger aimed at helping them compete against Tesla and other electric vehicle makers, newspaper Nikkei reported early Wednesday\u2026 [+2225 chars]",
+        "id": 17,
+        "imageId": "img_17"
     },
     {
         "source": {
@@ -231,7 +265,9 @@
         "url": "https://www.investing.com/news/stock-market-news/trump-transition-team-proposes-removal-of-carcrash-reporting-rule--reuters-93CH-3777793",
         "urlToImage": "https://i-invdn-com.investing.com/news/moved_LYNXMPEK920N0_L.jpg",
         "publishedAt": "2024-12-17T19:44:52Z",
-        "content": "Investing.com -- The transition team for the Trump administration is recommending that the incoming government eliminate a vehicle accident reporting rule. This rule has been opposed by Tesla (NASDAQ\u2026 [+1328 chars]"
+        "content": "Investing.com -- The transition team for the Trump administration is recommending that the incoming government eliminate a vehicle accident reporting rule. This rule has been opposed by Tesla (NASDAQ\u2026 [+1328 chars]",
+        "id": 18,
+        "imageId": "img_18"
     },
     {
         "source": {
@@ -244,7 +280,9 @@
         "url": "https://www.seattlepi.com/news/politics/article/what-does-big-tech-hope-to-gain-from-warming-up-19986409.php",
         "urlToImage": "https://s.hdnux.com/photos/01/46/31/24/26842400/6/rawImage.jpg",
         "publishedAt": "2024-12-17T19:30:24Z",
-        "content": "ARCHIVO El CEO de OpenAI, Sam Altman, asiste a un evento de Apple para anunciar nuevos productos, en Cupertino, California, el 10 de junio de 2024. (AP Foto/Jeff Chiu, Archivo)Jeff Chiu/AP\r\nFILE - Am\u2026 [+6973 chars]"
+        "content": "ARCHIVO El CEO de OpenAI, Sam Altman, asiste a un evento de Apple para anunciar nuevos productos, en Cupertino, California, el 10 de junio de 2024. (AP Foto/Jeff Chiu, Archivo)Jeff Chiu/AP\r\nFILE - Am\u2026 [+6973 chars]",
+        "id": 19,
+        "imageId": "img_19"
     },
     {
         "source": {
@@ -257,7 +295,9 @@
         "url": "https://abcnews.go.com/Technology/wireStory/big-tech-hope-gain-warming-trump-116879332",
         "urlToImage": "https://i.abcnewsfe.com/a/5f2d6463-d7f1-4dc6-8fd8-3b05bd7f3304/wirestory_1ddf9464047b519abe5593244be488d9_16x9.jpg?w=1600",
         "publishedAt": "2024-12-17T19:26:29Z",
-        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]"
+        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]",
+        "id": 20,
+        "imageId": "img_20"
     },
     {
         "source": {
@@ -270,7 +310,9 @@
         "url": "https://www.sfgate.com/bayarea/article/jenkins-shames-elon-musk-lee-19986388.php",
         "urlToImage": "https://s.hdnux.com/photos/01/46/33/34/26851131/3/rawImage.jpg",
         "publishedAt": "2024-12-17T19:22:44Z",
-        "content": "FILE: San Francisco District Attorney Brooke Jenkins speaks alongside police Chief William Scott on April 13, 2023, in San Francisco after police arrested 38-year-old tech tech consultant Nima Momeni\u2026 [+2616 chars]"
+        "content": "FILE: San Francisco District Attorney Brooke Jenkins speaks alongside police Chief William Scott on April 13, 2023, in San Francisco after police arrested 38-year-old tech tech consultant Nima Momeni\u2026 [+2616 chars]",
+        "id": 21,
+        "imageId": "img_21"
     },
     {
         "source": {
@@ -283,7 +325,9 @@
         "url": "https://www.forbes.com/sites/tylerroush/2024/12/17/honda-and-nissan-in-merger-talks-amid-efforts-to-boost-ev-offerings-report-says/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6761cbcddc48eb627e939270/0x0.jpg?format=jpg&crop=5438,3057,x0,y279,safe&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T19:19:50Z",
-        "content": "Nissan Motor and Honda Motor plan to enter negotiations for a merger that will likely include Mitsubishi Motors, a deal intended to help the newly formed company compete in the growing electric vehic\u2026 [+2755 chars]"
+        "content": "Nissan Motor and Honda Motor plan to enter negotiations for a merger that will likely include Mitsubishi Motors, a deal intended to help the newly formed company compete in the growing electric vehic\u2026 [+2755 chars]",
+        "id": 22,
+        "imageId": "img_22"
     },
     {
         "source": {
@@ -296,7 +340,9 @@
         "url": "https://abcnews.go.com/Business/wireStory/big-tech-hope-gain-warming-trump-116879331",
         "urlToImage": "https://i.abcnewsfe.com/a/5f2d6463-d7f1-4dc6-8fd8-3b05bd7f3304/wirestory_1ddf9464047b519abe5593244be488d9_16x9.jpg?w=1600",
         "publishedAt": "2024-12-17T19:18:47Z",
-        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]"
+        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]",
+        "id": 23,
+        "imageId": "img_23"
     },
     {
         "source": {
@@ -309,7 +355,9 @@
         "url": "https://abcnews.go.com/Politics/wireStory/big-tech-hope-gain-warming-trump-116879330",
         "urlToImage": "https://i.abcnewsfe.com/a/5f2d6463-d7f1-4dc6-8fd8-3b05bd7f3304/wirestory_1ddf9464047b519abe5593244be488d9_16x9.jpg?w=1600",
         "publishedAt": "2024-12-17T19:18:45Z",
-        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]"
+        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]",
+        "id": 24,
+        "imageId": "img_24"
     },
     {
         "source": {
@@ -322,7 +370,9 @@
         "url": "https://abcnews.go.com/US/wireStory/big-tech-hope-gain-warming-trump-116879328",
         "urlToImage": "https://i.abcnewsfe.com/a/5f2d6463-d7f1-4dc6-8fd8-3b05bd7f3304/wirestory_1ddf9464047b519abe5593244be488d9_16x9.jpg?w=1600",
         "publishedAt": "2024-12-17T19:18:43Z",
-        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]"
+        "content": "NEW YORK -- In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff \u2026 [+6106 chars]",
+        "id": 25,
+        "imageId": "img_25"
     },
     {
         "source": {
@@ -335,7 +385,9 @@
         "url": "https://www.theverge.com/2024/12/17/24323448/honda-nissan-merger-talks-memorandum-ev",
         "urlToImage": "https://cdn.vox-cdn.com/thumbor/CxV22NTNFX09jy_arqtM9YYMG8g=/0x0:5205x3470/1200x628/filters:focal(2603x1735:2604x1736)/cdn.vox-cdn.com/uploads/chorus_asset/file/25794646/c240315_001H.jpg",
         "publishedAt": "2024-12-17T19:17:21Z",
-        "content": "Honda and Nissan explore merger to navigate uncertain EV future\r\nHonda and Nissan explore merger to navigate uncertain EV future\r\n / The two Japanese auto giants are figuring out logistics including \u2026 [+2298 chars]"
+        "content": "Honda and Nissan explore merger to navigate uncertain EV future\r\nHonda and Nissan explore merger to navigate uncertain EV future\r\n / The two Japanese auto giants are figuring out logistics including \u2026 [+2298 chars]",
+        "id": 26,
+        "imageId": "img_26"
     },
     {
         "source": {
@@ -348,7 +400,9 @@
         "url": "https://www.livemint.com/opinion/online-views/what-does-big-tech-hope-to-gain-from-warming-up-to-trump-11734462962142.html",
         "urlToImage": "https://images.livemint.com/img/2018/12/28/1600x900/Opinion_1545994499293.jpg",
         "publishedAt": "2024-12-17T19:16:01Z",
-        "content": "NEW YORK In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff Bez\u2026 [+6366 chars]"
+        "content": "NEW YORK In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jeff Bez\u2026 [+6366 chars]",
+        "id": 27,
+        "imageId": "img_27"
     },
     {
         "source": {
@@ -361,7 +415,9 @@
         "url": "https://finance.yahoo.com/news/does-big-tech-hope-gain-191423618.html",
         "urlToImage": "https://s.yimg.com/ny/api/res/1.2/OcRcZZ0wHSldZtto5_bj.w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap_finance_articles_694/7d7cc0defbecd81d7130414b29d97a61",
         "publishedAt": "2024-12-17T19:14:23Z",
-        "content": "NEW YORK (AP) In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jef\u2026 [+6246 chars]"
+        "content": "NEW YORK (AP) In a string of visits, dinners, calls, monetary pledges and social media overtures, big tech chiefs including Apple's Tim Cook, OpenAIs Sam Altman, Metas Mark Zuckerberg and Amazons Jef\u2026 [+6246 chars]",
+        "id": 28,
+        "imageId": "img_28"
     },
     {
         "source": {
@@ -374,7 +430,9 @@
         "url": "https://checkyourfact.com/2024/12/17/fact-check-no-elon-musk-and-taylor-swift-did-not-tour-production-lines-of-energy-saving-devices-together/",
         "urlToImage": "https://cdn01.dailycaller.com/wp-content/uploads/2024/12/GettyImages-2187899784-1-scaled-e1734375064372.jpg",
         "publishedAt": "2024-12-17T19:11:20Z",
-        "content": "A post shared on Facebook claims Tesla CEO Elon Musk and musician Taylor Swift are promoting StopWatt, devices intended to conserve electricity. \r\nVerdict: False\r\nThere is no evidence for this claim.\u2026 [+1582 chars]"
+        "content": "A post shared on Facebook claims Tesla CEO Elon Musk and musician Taylor Swift are promoting StopWatt, devices intended to conserve electricity. \r\nVerdict: False\r\nThere is no evidence for this claim.\u2026 [+1582 chars]",
+        "id": 29,
+        "imageId": "img_29"
     },
     {
         "source": {
@@ -387,7 +445,9 @@
         "url": "https://futurism.com/the-byte/boston-dynamics-lays-off-human-employees",
         "urlToImage": "https://wordpress-assets.futurism.com/2024/12/boston-dynamics-lays-off-human-employees.jpg",
         "publishedAt": "2024-12-17T19:05:28Z",
-        "content": "\"However, we are also burning through cash at a rate that exceeds our commercial progress to date...\"\r\nBot Profitable\r\nBoston Dynamics, the company behind the popular Spot robot dog, is in financial \u2026 [+2395 chars]"
+        "content": "\"However, we are also burning through cash at a rate that exceeds our commercial progress to date...\"\r\nBot Profitable\r\nBoston Dynamics, the company behind the popular Spot robot dog, is in financial \u2026 [+2395 chars]",
+        "id": 30,
+        "imageId": "img_30"
     },
     {
         "source": {
@@ -400,7 +460,9 @@
         "url": "https://www.nbcnews.com/business/autos/japans-honda-nissan-reportedly-begin-merger-talks-rcna184570",
         "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-12/241217-honda-nissan-japan-ew-200p-e8cc14.jpg",
         "publishedAt": "2024-12-17T19:03:23Z",
-        "content": "DETROIT Japanese automakers Nissan Motor and Honda Motor reportedly plan to enter into negotiations for a merger to better compete in the rapidly changing global automotive industry, the Nikkei newsp\u2026 [+1368 chars]"
+        "content": "DETROIT Japanese automakers Nissan Motor and Honda Motor reportedly plan to enter into negotiations for a merger to better compete in the rapidly changing global automotive industry, the Nikkei newsp\u2026 [+1368 chars]",
+        "id": 31,
+        "imageId": "img_31"
     },
     {
         "source": {
@@ -413,7 +475,9 @@
         "url": "https://www.digitaljournal.com/world/japans-honda-and-nissan-to-begin-merger-talks-report/article",
         "urlToImage": "https://www.digitaljournal.com/wp-content/uploads/2024/12/33c45bfbff42d839dba25919e18ad0da3731b9dd.jpg",
         "publishedAt": "2024-12-17T19:02:32Z",
-        "content": "Honda and Nissan had already deepened ties earlier in 2024 when they agreed to explore a strategic partnership on electric vehicles - Copyright AFP/File NICHOLAS RATZENBOECK\r\nJapanese auto giants Hon\u2026 [+2142 chars]"
+        "content": "Honda and Nissan had already deepened ties earlier in 2024 when they agreed to explore a strategic partnership on electric vehicles - Copyright AFP/File NICHOLAS RATZENBOECK\r\nJapanese auto giants Hon\u2026 [+2142 chars]",
+        "id": 32,
+        "imageId": "img_32"
     },
     {
         "source": {
@@ -426,7 +490,9 @@
         "url": "http://electrek.co/2024/12/17/vvolt-e-bike-holiday-sale-ecoflow-jackery-more/",
         "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/12/Vvolt-Christmas-e-bike-FI.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T19:00:00Z",
-        "content": "Starting off today\u2019s Green Deals is Vvolt\u2019s Holiday sale that is giving hopeful e-bike riders up to $1,100 in savings on three of its e-bikes with free extra batteries too, with the biggest savings o\u2026 [+11191 chars]"
+        "content": "Starting off today\u2019s Green Deals is Vvolt\u2019s Holiday sale that is giving hopeful e-bike riders up to $1,100 in savings on three of its e-bikes with free extra batteries too, with the biggest savings o\u2026 [+11191 chars]",
+        "id": 33,
+        "imageId": "img_33"
     },
     {
         "source": {
@@ -439,7 +505,9 @@
         "url": "https://www.techradar.com/computing/artificial-intelligence/i-asked-chatgpt-claude-ai-gemini-and-siri-about-humanoid-robots-in-2025-and-the-responses-shocked-me",
         "urlToImage": "https://cdn.mos.cms.futurecdn.net/cJDZ8hWo67DdLWMcGiDf2N-1200-80.jpg",
         "publishedAt": "2024-12-17T18:55:00Z",
-        "content": "I'm obsessed with robots and have been since I was a little boy watching Gigantor anime on my small tube TV. Back then, I dreamed of riding on the shoulders of my robot friend. I've since shed those \u2026 [+5728 chars]"
+        "content": "I'm obsessed with robots and have been since I was a little boy watching Gigantor anime on my small tube TV. Back then, I dreamed of riding on the shoulders of my robot friend. I've since shed those \u2026 [+5728 chars]",
+        "id": 34,
+        "imageId": "img_34"
     },
     {
         "source": {
@@ -452,7 +520,9 @@
         "url": "https://biztoc.com/x/29f6b5ec7972e62f",
         "urlToImage": "https://biztoc.com/cdn/29f6b5ec7972e62f_s.webp",
         "publishedAt": "2024-12-17T18:51:13Z",
-        "content": "TOKYO -- Honda Motor and Nissan Motor will enter negotiations toward a merger, Nikkei has learned, joining their resources to better compete against Tesla and Chinese electric vehicle makers in a rap\u2026 [+152 chars]"
+        "content": "TOKYO -- Honda Motor and Nissan Motor will enter negotiations toward a merger, Nikkei has learned, joining their resources to better compete against Tesla and Chinese electric vehicle makers in a rap\u2026 [+152 chars]",
+        "id": 35,
+        "imageId": "img_35"
     },
     {
         "source": {
@@ -465,7 +535,9 @@
         "url": "http://electrek.co/2024/12/17/honda-nissan-close-in-ev-merger-survive-industry-shift/",
         "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/11/Hondas-Prologue-US.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T18:44:38Z",
-        "content": "Japanese automakers are taking drastic measures to keep pace with Tesla and Chinese EV leaders like BYD. Honda and Nissan are now closing in on an EV merger to join resources and fend off the incomin\u2026 [+2162 chars]"
+        "content": "Japanese automakers are taking drastic measures to keep pace with Tesla and Chinese EV leaders like BYD. Honda and Nissan are now closing in on an EV merger to join resources and fend off the incomin\u2026 [+2162 chars]",
+        "id": 36,
+        "imageId": "img_36"
     },
     {
         "source": {
@@ -478,7 +550,9 @@
         "url": "https://biztoc.com/x/9000f11ef6fdea0b",
         "urlToImage": "https://biztoc.com/cdn/9000f11ef6fdea0b_s.webp",
         "publishedAt": "2024-12-17T18:40:11Z",
-        "content": "Tesla Inc. Chief Executive Officer (CEO) and X Corp. Chairman Elon Musk and his space exploration company SpaceX are facing several federal probes concerning suspicions whether they fully comply with\u2026 [+69 chars]"
+        "content": "Tesla Inc. Chief Executive Officer (CEO) and X Corp. Chairman Elon Musk and his space exploration company SpaceX are facing several federal probes concerning suspicions whether they fully comply with\u2026 [+69 chars]",
+        "id": 37,
+        "imageId": "img_37"
     },
     {
         "source": {
@@ -491,7 +565,9 @@
         "url": "http://electrek.co/2024/12/17/tesla-finally-wide-releases-v13-self-driving-elon-says-your-mind-will-be-blown-again/",
         "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2021/08/Tesla-Full-Self-Driving-Beta-Hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T18:36:28Z",
-        "content": "Tesla is finally wide-releasing Full Self-Driving (FSD) Supervised v13 to vehicles with Hardware 4 computers. CEO Elon Musk commented on the release with a familiar comment: \u201cYour mind will be blown,\u2026 [+2250 chars]"
+        "content": "Tesla is finally wide-releasing Full Self-Driving (FSD) Supervised v13 to vehicles with Hardware 4 computers. CEO Elon Musk commented on the release with a familiar comment: \u201cYour mind will be blown,\u2026 [+2250 chars]",
+        "id": 38,
+        "imageId": "img_38"
     },
     {
         "source": {
@@ -504,7 +580,9 @@
         "url": "https://biztoc.com/x/d0020179fe2c069f",
         "urlToImage": "https://biztoc.com/cdn/d0020179fe2c069f_s.webp",
         "publishedAt": "2024-12-17T18:29:20Z",
-        "content": "If we know a few things about Tesla CEO Elon Musk, it is that he loves a good meme and has a lot of money because of his holdings in the EV maker.There are a few rare occasions where these two things\u2026 [+147 chars]"
+        "content": "If we know a few things about Tesla CEO Elon Musk, it is that he loves a good meme and has a lot of money because of his holdings in the EV maker.There are a few rare occasions where these two things\u2026 [+147 chars]",
+        "id": 39,
+        "imageId": "img_39"
     },
     {
         "source": {
@@ -517,7 +595,9 @@
         "url": "https://www.escapistmagazine.com/elon-musk-tells-you-to-work-100-hours-while-hes-playing-and-whining-about-his-new-favorite-video-game/",
         "urlToImage": "https://www.escapistmagazine.com/wp-content/uploads/2024/12/elon-musk-armor.jpg",
         "publishedAt": "2024-12-17T18:19:53Z",
-        "content": "A lot of people wish they could have Elon Musk\u2018s life. He\u2019s ridiculously wealthy and appears to succeed no matter what challenge he takes on. However, some of Musk\u2019s old advice should be rubbing peop\u2026 [+2775 chars]"
+        "content": "A lot of people wish they could have Elon Musk\u2018s life. He\u2019s ridiculously wealthy and appears to succeed no matter what challenge he takes on. However, some of Musk\u2019s old advice should be rubbing peop\u2026 [+2775 chars]",
+        "id": 40,
+        "imageId": "img_40"
     },
     {
         "source": {
@@ -530,7 +610,9 @@
         "url": "https://9to5mac.com/2024/12/17/analyst-trump-will-waive-apples-china-tariffs-so-it-doesnt-lose-to-samsung/",
         "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-was-wrong-on-AR.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T18:12:53Z",
-        "content": "President-elect Donald Trump has proposed sweeping tariffs on China, where Apple manufactures many of its products. Yet Apples stock is hitting all-time highs. Heres why.\r\nDeepwater Asset Management,\u2026 [+1929 chars]"
+        "content": "President-elect Donald Trump has proposed sweeping tariffs on China, where Apple manufactures many of its products. Yet Apples stock is hitting all-time highs. Heres why.\r\nDeepwater Asset Management,\u2026 [+1929 chars]",
+        "id": 41,
+        "imageId": "img_41"
     },
     {
         "source": {
@@ -543,7 +625,9 @@
         "url": "https://www.cnbc.com/2024/12/17/japans-honda-and-nissan-to-reportedly-begin-merger-talks.html",
         "urlToImage": "https://image.cnbcfm.com/api/v1/image/108077061-17344575222024-03-15t111854z_1134746941_rc2bm6a059by_rtrmadp_0_nissan-honda.jpeg?v=1734457587&w=1920&h=1080",
         "publishedAt": "2024-12-17T18:08:16Z",
-        "content": "DETROIT Japanese automakers Nissan Motor and Honda Motor reportedly plan to enter into negotiations for a merger to better compete in the rapidly changing global automotive industry, the Nikkei newsp\u2026 [+1440 chars]"
+        "content": "DETROIT Japanese automakers Nissan Motor and Honda Motor reportedly plan to enter into negotiations for a merger to better compete in the rapidly changing global automotive industry, the Nikkei newsp\u2026 [+1440 chars]",
+        "id": 42,
+        "imageId": "img_42"
     },
     {
         "source": {
@@ -556,7 +640,9 @@
         "url": "https://removed.com",
         "urlToImage": null,
         "publishedAt": "2024-12-17T18:06:22Z",
-        "content": "[Removed]"
+        "content": "[Removed]",
+        "id": 43,
+        "imageId": "img_43"
     },
     {
         "source": {
@@ -569,7 +655,9 @@
         "url": "https://www.huffpost.com/entry/elizabeth-warren-musk-conflict-of-interest_n_676191e6e4b061ac46a04e57",
         "urlToImage": "https://img.huffingtonpost.com/asset/676197421800002400a0f96e.jpeg?cache=I21yAd2cp8&ops=1200_630",
         "publishedAt": "2024-12-17T18:01:11Z",
-        "content": "Sen. Elizabeth Warren (D-Mass.) on Monday called on Donald Trump to place guardrails around billionaire Elon Musk, who has maintained a near-constant presence in the president-elects inner circle sin\u2026 [+5185 chars]"
+        "content": "Sen. Elizabeth Warren (D-Mass.) on Monday called on Donald Trump to place guardrails around billionaire Elon Musk, who has maintained a near-constant presence in the president-elects inner circle sin\u2026 [+5185 chars]",
+        "id": 44,
+        "imageId": "img_44"
     },
     {
         "source": {
@@ -582,7 +670,9 @@
         "url": "https://www.polygon.com/news/498225/overwatch-2-6v6-update-patch-notes-december-17-blizzard",
         "urlToImage": "https://platform.polygon.com/wp-content/uploads/sites/2/2024/12/OWC_Trailer12.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
         "publishedAt": "2024-12-17T18:01:09Z",
-        "content": "As promised, Blizzard Entertainment is giving 6v6 team comps another shot in Overwatch 2 with a new limited-time experimental mode for its hero shooter. The 6v6 Role Queue experiment will bring back \u2026 [+11178 chars]"
+        "content": "As promised, Blizzard Entertainment is giving 6v6 team comps another shot in Overwatch 2 with a new limited-time experimental mode for its hero shooter. The 6v6 Role Queue experiment will bring back \u2026 [+11178 chars]",
+        "id": 45,
+        "imageId": "img_45"
     },
     {
         "source": {
@@ -595,7 +685,9 @@
         "url": "https://biztoc.com/x/692c6ea107c27aa6",
         "urlToImage": "https://biztoc.com/cdn/692c6ea107c27aa6_s.webp",
         "publishedAt": "2024-12-17T17:56:23Z",
-        "content": "The Dow Jones Industrial Average headed for its longest losing streak since the 1970s as blue chips tumbled 200 points in midday action Tuesday. Nvidia (NVDA) buckled again over concerns regarding vo\u2026 [+154 chars]"
+        "content": "The Dow Jones Industrial Average headed for its longest losing streak since the 1970s as blue chips tumbled 200 points in midday action Tuesday. Nvidia (NVDA) buckled again over concerns regarding vo\u2026 [+154 chars]",
+        "id": 46,
+        "imageId": "img_46"
     },
     {
         "source": {
@@ -608,7 +700,9 @@
         "url": "https://qz.com/trump-elon-musk-warren-ethics-rules-tesla-spacex-wealth-1851722989",
         "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/a85ade0f8cda4a313402b231dd7a72b4.jpg",
         "publishedAt": "2024-12-17T17:51:57Z",
-        "content": "In This Story\r\nSen. Elizabeth Warren is pushing President-elect Donald Trump to outline and enforce ethics rules on Elon Musk, a key member of his transition team who has been tapped to lead a group \u2026 [+3969 chars]"
+        "content": "In This Story\r\nSen. Elizabeth Warren is pushing President-elect Donald Trump to outline and enforce ethics rules on Elon Musk, a key member of his transition team who has been tapped to lead a group \u2026 [+3969 chars]",
+        "id": 47,
+        "imageId": "img_47"
     },
     {
         "source": {
@@ -621,7 +715,9 @@
         "url": "https://www.investing.com/news/stock-market-news/honda-and-nissan-set-sights-on-merger-for-electric-vehicle-competition-nikkei-reports-93CH-3777642",
         "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEE4D0Z5_L.jpg",
         "publishedAt": "2024-12-17T17:29:43Z",
-        "content": "Investing.com -- Honda (NYSE:HMC) Motor and Nissan (OTC:NSANY) Motor are set to engage in discussions regarding a potential merger, aiming to pool resources to strengthen their position in the electr\u2026 [+1123 chars]"
+        "content": "Investing.com -- Honda (NYSE:HMC) Motor and Nissan (OTC:NSANY) Motor are set to engage in discussions regarding a potential merger, aiming to pool resources to strengthen their position in the electr\u2026 [+1123 chars]",
+        "id": 48,
+        "imageId": "img_48"
     },
     {
         "source": {
@@ -634,7 +730,9 @@
         "url": "https://ibelieveinadv.com/insurance-quotes-for-2025-tesla-model-3-cheapest-rates-from-best-companies/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T17:27:46Z",
-        "content": "[ad_1]Car Insurance Cost for 2025 Tesla Model 3: Cheapest Rates From Best Companies\r\nCar insurance is a necessary expense for all vehicle owners, and the cost can vary greatly depending on the make a\u2026 [+8555 chars]"
+        "content": "[ad_1]Car Insurance Cost for 2025 Tesla Model 3: Cheapest Rates From Best Companies\r\nCar insurance is a necessary expense for all vehicle owners, and the cost can vary greatly depending on the make a\u2026 [+8555 chars]",
+        "id": 49,
+        "imageId": "img_49"
     },
     {
         "source": {
@@ -647,7 +745,9 @@
         "url": "https://ibelieveinadv.com/insurance-quotes-for-2025-tesla-model-x-cheapest-rates-from-best-companies/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T17:27:46Z",
-        "content": "[ad_1]The average cost of car insurance for a 2025 Tesla Model X can vary depending on several factors such as the driver\u2019s age, location, driving record, and the insurance company chosen. In general\u2026 [+8048 chars]"
+        "content": "[ad_1]The average cost of car insurance for a 2025 Tesla Model X can vary depending on several factors such as the driver\u2019s age, location, driving record, and the insurance company chosen. In general\u2026 [+8048 chars]",
+        "id": 50,
+        "imageId": "img_50"
     },
     {
         "source": {
@@ -660,7 +760,9 @@
         "url": "https://ibelieveinadv.com/insurance-quotes-for-2025-tesla-cybertruck-cheapest-rates-from-best-companies/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T17:27:46Z",
-        "content": "[ad_1]The average cost of car insurance for the 2025 Tesla Cybertruck can vary depending on several factors such as the driver\u2019s age, location, driving record, and coverage options. However, on avera\u2026 [+7027 chars]"
+        "content": "[ad_1]The average cost of car insurance for the 2025 Tesla Cybertruck can vary depending on several factors such as the driver\u2019s age, location, driving record, and coverage options. However, on avera\u2026 [+7027 chars]",
+        "id": 51,
+        "imageId": "img_51"
     },
     {
         "source": {
@@ -673,7 +775,9 @@
         "url": "https://ibelieveinadv.com/insurance-quotes-for-2025-tesla-model-y-cheapest-rates-from-best-companies/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T17:27:46Z",
-        "content": "[ad_1]Car insurance is a crucial expense for all vehicle owners, as it provides financial protection in case of accidents, theft, or other unforeseen events. The cost of car insurance can vary signif\u2026 [+8701 chars]"
+        "content": "[ad_1]Car insurance is a crucial expense for all vehicle owners, as it provides financial protection in case of accidents, theft, or other unforeseen events. The cost of car insurance can vary signif\u2026 [+8701 chars]",
+        "id": 52,
+        "imageId": "img_52"
     },
     {
         "source": {
@@ -686,7 +790,9 @@
         "url": "https://ibelieveinadv.com/insurance-quotes-for-2025-tesla-model-s-cheapest-rates-from-best-companies/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T17:27:46Z",
-        "content": "[ad_1]Car Insurance Cost for 2025 Tesla Model S: Cheapest Rates From Best Companies\r\nWhen it comes to insuring a 2025 Tesla Model S, the cost of car insurance can vary significantly depending on seve\u2026 [+7666 chars]"
+        "content": "[ad_1]Car Insurance Cost for 2025 Tesla Model S: Cheapest Rates From Best Companies\r\nWhen it comes to insuring a 2025 Tesla Model S, the cost of car insurance can vary significantly depending on seve\u2026 [+7666 chars]",
+        "id": 53,
+        "imageId": "img_53"
     },
     {
         "source": {
@@ -699,7 +805,9 @@
         "url": "https://biztoc.com/x/5a3a57d806b6415f",
         "urlToImage": "https://biztoc.com/cdn/5a3a57d806b6415f_s.webp",
         "publishedAt": "2024-12-17T17:23:20Z",
-        "content": "For years, Elon Musk has touted Teslas (TSLA) full self-driving (FSD) technology, promising that his company will blow past its competitors in the driverless race. In 2015, he promised that Tesla wou\u2026 [+140 chars]"
+        "content": "For years, Elon Musk has touted Teslas (TSLA) full self-driving (FSD) technology, promising that his company will blow past its competitors in the driverless race. In 2015, he promised that Tesla wou\u2026 [+140 chars]",
+        "id": 54,
+        "imageId": "img_54"
     },
     {
         "source": {
@@ -712,7 +820,9 @@
         "url": "https://biztoc.com/x/51ff0e9685735f9a",
         "urlToImage": "https://biztoc.com/cdn/51ff0e9685735f9a_s.webp",
         "publishedAt": "2024-12-17T17:12:16Z",
-        "content": "TOKYO -- Honda Motor and Nissan Motor will enter negotiations toward a merger, Nikkei has learned, joining their resources to better compete against Tesla and Chinese electric vehicle makers in a rap\u2026 [+152 chars]"
+        "content": "TOKYO -- Honda Motor and Nissan Motor will enter negotiations toward a merger, Nikkei has learned, joining their resources to better compete against Tesla and Chinese electric vehicle makers in a rap\u2026 [+152 chars]",
+        "id": 55,
+        "imageId": "img_55"
     },
     {
         "source": {
@@ -725,7 +835,9 @@
         "url": "https://www.thegatewaypundit.com/2024/12/brexit-hero-nigel-farage-meets-musk-mar-lago/",
         "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2024/12/nick-candy-elon-musk-nigel-farage.jpg",
         "publishedAt": "2024-12-17T17:00:37Z",
-        "content": "Reform Uk\u2019s Treasurer Nick Candy, Elon Musk and Nigel Farage, in front of a Donald J. Trump portrait.\r\nNigel Farage flew to Mar-a-Lago, Florida, and has met with Elon Musk amid claims that the world\u2019\u2026 [+1687 chars]"
+        "content": "Reform Uk\u2019s Treasurer Nick Candy, Elon Musk and Nigel Farage, in front of a Donald J. Trump portrait.\r\nNigel Farage flew to Mar-a-Lago, Florida, and has met with Elon Musk amid claims that the world\u2019\u2026 [+1687 chars]",
+        "id": 56,
+        "imageId": "img_56"
     },
     {
         "source": {
@@ -738,7 +850,9 @@
         "url": "https://biztoc.com/x/be728b519f95141a",
         "urlToImage": "https://biztoc.com/cdn/be728b519f95141a_s.webp",
         "publishedAt": "2024-12-17T16:49:46Z",
-        "content": "Tesla accused Germany's IG Metall union of trying to sow unrest at the EV maker's gigafactory near Berlin by seeking to oust the head of the works council, in the latest sign of the sour relationship\u2026 [+80 chars]"
+        "content": "Tesla accused Germany's IG Metall union of trying to sow unrest at the EV maker's gigafactory near Berlin by seeking to oust the head of the works council, in the latest sign of the sour relationship\u2026 [+80 chars]",
+        "id": 57,
+        "imageId": "img_57"
     },
     {
         "source": {
@@ -751,7 +865,9 @@
         "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-prioritizing-humanoid-robot-advances-says-tsmc-ceo-tsmc-will-supply-the-chips-if-the-price-is-right",
         "urlToImage": "https://cdn.mos.cms.futurecdn.net/r779PQqYMQMkQi5CactTU9-1200-80.jpg",
         "publishedAt": "2024-12-17T16:45:58Z",
-        "content": "Elon Musk has fingers in many high-tech pies, but the world\u2019s richest man is now prioritizing advances in humanoid robotics, states TSMC\u2019s CC Wei. The Chairman and Chief Executive Officer of TSMC sha\u2026 [+2223 chars]"
+        "content": "Elon Musk has fingers in many high-tech pies, but the world\u2019s richest man is now prioritizing advances in humanoid robotics, states TSMC\u2019s CC Wei. The Chairman and Chief Executive Officer of TSMC sha\u2026 [+2223 chars]",
+        "id": 58,
+        "imageId": "img_58"
     },
     {
         "source": {
@@ -764,7 +880,9 @@
         "url": "https://www.windowscentral.com/software-apps/ai-safety-researcher-says-its-no-longer-a-question-of-how-long-but-how-much-money-until-we-reach-agi",
         "urlToImage": "https://cdn.mos.cms.futurecdn.net/qM8RZcqyZVXwwvD3RhGinh-1200-80.jpg",
         "publishedAt": "2024-12-17T16:43:01Z",
-        "content": "Top AI labs, including OpenAI, Google, and Anthropic have reportedly hit a major bottleneck that could prevent further development and progression of AI. The companies' AI efforts have been stunted b\u2026 [+4200 chars]"
+        "content": "Top AI labs, including OpenAI, Google, and Anthropic have reportedly hit a major bottleneck that could prevent further development and progression of AI. The companies' AI efforts have been stunted b\u2026 [+4200 chars]",
+        "id": 59,
+        "imageId": "img_59"
     },
     {
         "source": {
@@ -777,7 +895,9 @@
         "url": "http://deadline.com/2024/12/intrinsic-value-hires-head-of-development-for-film-tv-1236206837/",
         "urlToImage": "https://deadline.com/wp-content/uploads/2024/12/GettyImages-2179692323-e1734453371632.jpg?w=1024",
         "publishedAt": "2024-12-17T16:37:19Z",
-        "content": "EXCLUSIVE: LA-based production company Intrinsic Value Films, coming off indie movies Queen Of The Ring and 5lbs Of Pressure, has hired Megan Freels Johnston as Head of Development, where she will ma\u2026 [+1401 chars]"
+        "content": "EXCLUSIVE: LA-based production company Intrinsic Value Films, coming off indie movies Queen Of The Ring and 5lbs Of Pressure, has hired Megan Freels Johnston as Head of Development, where she will ma\u2026 [+1401 chars]",
+        "id": 60,
+        "imageId": "img_60"
     },
     {
         "source": {
@@ -790,7 +910,9 @@
         "url": "https://www.dailydot.com/newsletters/daily-dot-newsletter-web-crawlr-12-17-2024/",
         "urlToImage": "https://uploads.dailydot.com/2024/12/web_crawlr-image-12-17-2024.png?auto=compress&fit=scale&fm=png&h=400&w=800",
         "publishedAt": "2024-12-17T16:30:00Z",
-        "content": "Internet culture is chaoticbut well break it down for you in one daily email. Sign up for the Daily Dots web_crawlr newsletter here. Youll get the best (and worst) of the internet straight into your \u2026 [+2766 chars]"
+        "content": "Internet culture is chaoticbut well break it down for you in one daily email. Sign up for the Daily Dots web_crawlr newsletter here. Youll get the best (and worst) of the internet straight into your \u2026 [+2766 chars]",
+        "id": 61,
+        "imageId": "img_61"
     },
     {
         "source": {
@@ -803,7 +925,9 @@
         "url": "https://biztoc.com/x/13026b2a582b4dba",
         "urlToImage": "https://biztoc.com/cdn/13026b2a582b4dba_s.webp",
         "publishedAt": "2024-12-17T16:27:53Z",
-        "content": "The Dow Jones Industrial Average was headed for its ninth-straight loss as blue chips tumbled more than 200 points in morning action Tuesday. Nvidia (NVDA) buckled again over concerns its voltage dev\u2026 [+141 chars]"
+        "content": "The Dow Jones Industrial Average was headed for its ninth-straight loss as blue chips tumbled more than 200 points in morning action Tuesday. Nvidia (NVDA) buckled again over concerns its voltage dev\u2026 [+141 chars]",
+        "id": 62,
+        "imageId": "img_62"
     },
     {
         "source": {
@@ -816,7 +940,9 @@
         "url": "https://www.bbc.com/news/articles/c1kez8d2dygo",
         "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/acb0/live/599441f0-bc87-11ef-aa02-e39a307484ab.jpg",
         "publishedAt": "2024-12-17T16:27:18Z",
-        "content": "Reform UK leader Nigel Farage and the party's new treasurer Nick Candy have met US billionaire Elon Musk at Donald Trump's Florida retreat.\r\nThe party said the pair had \"learned a great deal from Mus\u2026 [+2522 chars]"
+        "content": "Reform UK leader Nigel Farage and the party's new treasurer Nick Candy have met US billionaire Elon Musk at Donald Trump's Florida retreat.\r\nThe party said the pair had \"learned a great deal from Mus\u2026 [+2522 chars]",
+        "id": 63,
+        "imageId": "img_63"
     },
     {
         "source": {
@@ -829,7 +955,9 @@
         "url": "https://www.forbes.com/sites/nicolekobie/2024/12/17/why-gm-ditched-cruise-driverless-software-driven-cars-mean-big-bucks/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6761a326e8ab76b71f38c04f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T16:19:03Z",
-        "content": "Cars stand parked ready for export in Wilhelmshaven port on July 16, 2022 in Wilhelmshaven, Germany. ... [+] The German economy is facing challenges stemming from global supply chain shortages as wel\u2026 [+5234 chars]"
+        "content": "Cars stand parked ready for export in Wilhelmshaven port on July 16, 2022 in Wilhelmshaven, Germany. ... [+] The German economy is facing challenges stemming from global supply chain shortages as wel\u2026 [+5234 chars]",
+        "id": 64,
+        "imageId": "img_64"
     },
     {
         "source": {
@@ -842,7 +970,9 @@
         "url": "https://biztoc.com/x/4eff9db55a60ca88",
         "urlToImage": "https://biztoc.com/cdn/808/og.png",
         "publishedAt": "2024-12-17T16:06:15Z",
-        "content": "U.S. stock futures are lower ahead of retail sales data and the start of the two-day Federal Reserve meeting; bitcoin (BTCUSD) reaches a new high above $107,000 as MicroStrategy (MSTR) continues to b\u2026 [+155 chars]"
+        "content": "U.S. stock futures are lower ahead of retail sales data and the start of the two-day Federal Reserve meeting; bitcoin (BTCUSD) reaches a new high above $107,000 as MicroStrategy (MSTR) continues to b\u2026 [+155 chars]",
+        "id": 65,
+        "imageId": "img_65"
     },
     {
         "source": {
@@ -855,7 +985,9 @@
         "url": "https://biztoc.com/x/f475d15619958b5e",
         "urlToImage": "https://biztoc.com/cdn/f475d15619958b5e_s.webp",
         "publishedAt": "2024-12-17T16:06:01Z",
-        "content": "The Dow Jones Industrial Average and other major indexes traded lower Tuesday amid November retail sales numbers that gave a mixed picture. An early loser on the stock market today was Nvidia (NVDA),\u2026 [+153 chars]"
+        "content": "The Dow Jones Industrial Average and other major indexes traded lower Tuesday amid November retail sales numbers that gave a mixed picture. An early loser on the stock market today was Nvidia (NVDA),\u2026 [+153 chars]",
+        "id": 66,
+        "imageId": "img_66"
     },
     {
         "source": {
@@ -868,7 +1000,9 @@
         "url": "https://www.forbes.com/sites/alexkonrad/2024/12/17/villi-iltchev-raises-160-million-debut-fund-category/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67619b036cb12e5b90dee8b5/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T16:01:31Z",
-        "content": "Villi Iltchev raised $160 million for his debut seed fund, Category Ventures.\r\nVilli Iltchev\r\nBulgaria-born Villi Iltchev built an unlikely career as an early investor in now-public GitLab generating\u2026 [+7564 chars]"
+        "content": "Villi Iltchev raised $160 million for his debut seed fund, Category Ventures.\r\nVilli Iltchev\r\nBulgaria-born Villi Iltchev built an unlikely career as an early investor in now-public GitLab generating\u2026 [+7564 chars]",
+        "id": 67,
+        "imageId": "img_67"
     },
     {
         "source": {
@@ -881,7 +1015,9 @@
         "url": "https://soyacincau.com/2024/12/17/proton-emas-7-maintenance-service-intervals/",
         "urlToImage": "https://soyacincau.com/wp-content/uploads/2024/12/proton-emas-7-premium-prime-01.jpg",
         "publishedAt": "2024-12-17T15:59:30Z",
-        "content": "Proton e.MAS 7 is finally ready to make its mark in the local automotive market. Officially launched to the public yesterday, the new electric SUV is priced from as low as RM106k.\r\nRight after the la\u2026 [+2638 chars]"
+        "content": "Proton e.MAS 7 is finally ready to make its mark in the local automotive market. Officially launched to the public yesterday, the new electric SUV is priced from as low as RM106k.\r\nRight after the la\u2026 [+2638 chars]",
+        "id": 68,
+        "imageId": "img_68"
     },
     {
         "source": {
@@ -894,7 +1030,9 @@
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-ai-stock/",
         "urlToImage": "https://www.investors.com/wp-content/uploads/2022/06/Stock-jeromepowell2022-04-gov.jpg",
         "publishedAt": "2024-12-17T15:56:15Z",
-        "content": "The Dow Jones Industrial Average was headed for its ninth-straight loss as blue chips tumbled more than 200 points in morning action Tuesday. Nvidia (NVDA) buckled again over concerns its voltage dev\u2026 [+4476 chars]"
+        "content": "The Dow Jones Industrial Average was headed for its ninth-straight loss as blue chips tumbled more than 200 points in morning action Tuesday. Nvidia (NVDA) buckled again over concerns its voltage dev\u2026 [+4476 chars]",
+        "id": 69,
+        "imageId": "img_69"
     },
     {
         "source": {
@@ -907,7 +1045,9 @@
         "url": "https://economictimes.indiatimes.com/news/international/us/elon-musk-once-called-apple-co-founder-steve-jobs-a-jerk-dubs-apple-as-teslas-graveyard-heres-all-he-said-about-the-iphone-maker-and-its-founder/articleshow/116407788.cms",
         "urlToImage": "https://img.etimg.com/thumb/msid-116407791,width-1200,height-630,imgsize-1928072,overlay-economictimes/articleshow.jpg",
         "publishedAt": "2024-12-17T15:55:51Z",
-        "content": "Elon Musk, known for his outspoken personality, has often voiced sharp critiques about Apple, taking digs at its recruitment practices, AI strategies, and even recalling a less-than-pleasant encounte\u2026 [+2354 chars]"
+        "content": "Elon Musk, known for his outspoken personality, has often voiced sharp critiques about Apple, taking digs at its recruitment practices, AI strategies, and even recalling a less-than-pleasant encounte\u2026 [+2354 chars]",
+        "id": 70,
+        "imageId": "img_70"
     },
     {
         "source": {
@@ -920,7 +1060,9 @@
         "url": "https://biztoc.com/x/cba03e33bab389cb",
         "urlToImage": "https://biztoc.com/cdn/cba03e33bab389cb_s.webp",
         "publishedAt": "2024-12-17T15:44:11Z",
-        "content": "X Corp. Chairman and Tesla Inc. and SpaceX Chief Executive Officer (CEO) Elon Musk denied on Tuesday that the satellites of the latter company's telecommunications and internet provider constellation\u2026 [+69 chars]"
+        "content": "X Corp. Chairman and Tesla Inc. and SpaceX Chief Executive Officer (CEO) Elon Musk denied on Tuesday that the satellites of the latter company's telecommunications and internet provider constellation\u2026 [+69 chars]",
+        "id": 71,
+        "imageId": "img_71"
     },
     {
         "source": {
@@ -933,7 +1075,9 @@
         "url": "http://electrek.co/2024/12/17/man-sentenced-to-prison-for-stealing-tesla-secrets-other-still-at-large/",
         "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/07/Tesla-Gigafactory-Texas-July-2022.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T15:41:36Z",
-        "content": "One man has been sentenced to two years in prison for stealing Tesla secrets and trying to sell them while his co-conspirator is reportedly still at large.\r\nEarlier this year, we reported that two me\u2026 [+1876 chars]"
+        "content": "One man has been sentenced to two years in prison for stealing Tesla secrets and trying to sell them while his co-conspirator is reportedly still at large.\r\nEarlier this year, we reported that two me\u2026 [+1876 chars]",
+        "id": 72,
+        "imageId": "img_72"
     },
     {
         "source": {
@@ -946,7 +1090,9 @@
         "url": "https://www.forbes.com/sites/alisondurkee/2024/12/17/elon-musk-should-face-conflict-of-interest-rules-for-trump-doge-work-elizabeth-warren-argues/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/676199a2fee6c2dc063b0a5e/0x0.jpg?format=jpg&crop=1907,1073,x0,y0,safe&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T15:37:08Z",
-        "content": "Sen. Elizabeth Warren, D-Mass., demanded information on if Elon Musks governmental work will be subject to conflict-of-interest rules, as President-elect Donald Trump has so far rebuffed concerns tha\u2026 [+6911 chars]"
+        "content": "Sen. Elizabeth Warren, D-Mass., demanded information on if Elon Musks governmental work will be subject to conflict-of-interest rules, as President-elect Donald Trump has so far rebuffed concerns tha\u2026 [+6911 chars]",
+        "id": 73,
+        "imageId": "img_73"
     },
     {
         "source": {
@@ -959,7 +1105,9 @@
         "url": "https://techcrunch.com/2024/12/17/slip-robotics-snags-28m-for-its-bots-that-can-load-a-truck-in-five-minutes/",
         "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/12/Slip-Robotics-SlipBots-at-Valeo-Indiana-2024-02.jpg?resize=1200,800",
         "publishedAt": "2024-12-17T15:35:01Z",
-        "content": "Drop by any given loading dock and a buzz of forklifts loaded up with goods can be spotted maneuvering in and out of truck trailers. This logistical dance can take up to an hour to fill a trailer, le\u2026 [+3822 chars]"
+        "content": "Drop by any given loading dock and a buzz of forklifts loaded up with goods can be spotted maneuvering in and out of truck trailers. This logistical dance can take up to an hour to fill a trailer, le\u2026 [+3822 chars]",
+        "id": 74,
+        "imageId": "img_74"
     },
     {
         "source": {
@@ -972,7 +1120,9 @@
         "url": "https://securityaffairs.com/172074/malware/fbi-warns-of-hiatusrat-scanning-campaigns.html",
         "urlToImage": "https://securityaffairs.com/wp-content/uploads/2023/08/image-38.png",
         "publishedAt": "2024-12-17T15:26:30Z",
-        "content": "The FBI warns of HiatusRAT scanning campaigns against Chinese-branded web cameras and DVRs\r\n | Russia FSB relies on Ukrainian minors for criminal activities disguised as \"quest games\"\r\n | U.S. CISA a\u2026 [+124250 chars]"
+        "content": "The FBI warns of HiatusRAT scanning campaigns against Chinese-branded web cameras and DVRs\r\n | Russia FSB relies on Ukrainian minors for criminal activities disguised as \"quest games\"\r\n | U.S. CISA a\u2026 [+124250 chars]",
+        "id": 75,
+        "imageId": "img_75"
     },
     {
         "source": {
@@ -985,7 +1135,9 @@
         "url": "https://www.businessinsider.com/warren-musk-trump-conflict-of-interest-rules-doge-spacex-2024-12",
         "urlToImage": "https://i.insider.com/6761929d4ea3c98ea3e4e4d6?width=1200&format=jpeg",
         "publishedAt": "2024-12-17T15:23:41Z",
-        "content": "Sen. Elizabeth Warren of Massachusetts is concerned about Elon Musk's potential conflicts of interest in Trump's upcoming second term.Andrew Harnik/Getty Images\r\n<ul><li>Elizabeth Warren wants Presid\u2026 [+2447 chars]"
+        "content": "Sen. Elizabeth Warren of Massachusetts is concerned about Elon Musk's potential conflicts of interest in Trump's upcoming second term.Andrew Harnik/Getty Images\r\n<ul><li>Elizabeth Warren wants Presid\u2026 [+2447 chars]",
+        "id": 76,
+        "imageId": "img_76"
     },
     {
         "source": {
@@ -998,7 +1150,9 @@
         "url": "https://www.forbes.com/sites/dereksaul/2024/12/17/tesla-stock-earns-another-analyst-upgrade-as-elon-musk-celebrates-inevitable-new-all-time-high/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6761947dd29112878498a67a/0x0.jpg?format=jpg&crop=2197,1234,x296,y101,safe&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T15:21:34Z",
-        "content": "Tesla shares rallied Tuesday to a fresh all-time high on the back of another highly bullish move from Wall Street, as Elon Musks car company continues its rapid ascent since Donald Trump, supported b\u2026 [+3154 chars]"
+        "content": "Tesla shares rallied Tuesday to a fresh all-time high on the back of another highly bullish move from Wall Street, as Elon Musks car company continues its rapid ascent since Donald Trump, supported b\u2026 [+3154 chars]",
+        "id": 77,
+        "imageId": "img_77"
     },
     {
         "source": {
@@ -1011,7 +1165,9 @@
         "url": "https://www.newsminer.com/news/local_news/fast-planning-to-consider-adopting-electric-vehicle-infrastructure-strategy/article_8e579714-bc0c-11ef-ad80-0fd69322cb4c.html",
         "urlToImage": "https://bloximages.newyork1.vip.townnews.com/newsminer.com/content/tncms/assets/v3/editorial/8/62/8622ac0a-bc11-11ef-8cc3-2f3f5b4c1ee3/6760cbdc41de1.image.jpg?crop=1709%2C897%2C0%2C157&resize=1200%2C630&order=crop%2Cresize",
         "publishedAt": "2024-12-17T15:15:00Z",
-        "content": "The Fairbanks Area Surface Transportation Planning Policy Board will consider adopting a final version of an electric vehicle (EV) infrastructure implementation strategy for North Pole and Fairbanks \u2026 [+8708 chars]"
+        "content": "The Fairbanks Area Surface Transportation Planning Policy Board will consider adopting a final version of an electric vehicle (EV) infrastructure implementation strategy for North Pole and Fairbanks \u2026 [+8708 chars]",
+        "id": 78,
+        "imageId": "img_78"
     },
     {
         "source": {
@@ -1024,7 +1180,9 @@
         "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fe5a528b-ec2f-4f10-ab8b-8a12f26ae779",
         "urlToImage": null,
         "publishedAt": "2024-12-17T15:13:28Z",
-        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]",
+        "id": 79,
+        "imageId": "img_79"
     },
     {
         "source": {
@@ -1037,7 +1195,9 @@
         "url": "https://biztoc.com/x/2462fbba40ac26bb",
         "urlToImage": "https://biztoc.com/cdn/2462fbba40ac26bb_s.webp",
         "publishedAt": "2024-12-17T15:10:59Z",
-        "content": "GM is shutting down its robotaxi business, Tesla is creating one of its own what does the future hold for self-driving?Want TechScape delivered to your inbox? Sign up hereWelcome back. This week in t\u2026 [+144 chars]"
+        "content": "GM is shutting down its robotaxi business, Tesla is creating one of its own what does the future hold for self-driving?Want TechScape delivered to your inbox? Sign up hereWelcome back. This week in t\u2026 [+144 chars]",
+        "id": 80,
+        "imageId": "img_80"
     },
     {
         "source": {
@@ -1050,7 +1210,9 @@
         "url": "https://www.nextbigfuture.com/2024/12/will-tesla-reach-500-today-or-by-friday.html",
         "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2024/12/Screenshot-2024-12-17-at-6.58.33-AM.jpg",
         "publishedAt": "2024-12-17T15:10:01Z",
-        "content": "Tesla continues its epic run.\r\nTesla China released another good weekly of insurance registrations. This is mainly an indication that the fourth quarter volume production and delivery numbers on Janu\u2026 [+4975 chars]"
+        "content": "Tesla continues its epic run.\r\nTesla China released another good weekly of insurance registrations. This is mainly an indication that the fourth quarter volume production and delivery numbers on Janu\u2026 [+4975 chars]",
+        "id": 81,
+        "imageId": "img_81"
     },
     {
         "source": {
@@ -1063,7 +1225,9 @@
         "url": "https://cryptobriefing.com/crypto-market-growth-10t-cap/",
         "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2024/12/17095759/297368bf-4a98-4ce4-886d-68ac8d3392f0-800x420.jpg",
         "publishedAt": "2024-12-17T15:00:21Z",
-        "content": "Share this article\r\nThe crypto market has exploded recently, going from a niche for speculation into a global financial colossus. The market is already being capitalized with trillions of dollars, wh\u2026 [+4790 chars]"
+        "content": "Share this article\r\nThe crypto market has exploded recently, going from a niche for speculation into a global financial colossus. The market is already being capitalized with trillions of dollars, wh\u2026 [+4790 chars]",
+        "id": 82,
+        "imageId": "img_82"
     },
     {
         "source": {
@@ -1076,7 +1240,9 @@
         "url": "https://macdailynews.com/2024/12/17/gene-munster-predicts-apple-and-tesla-will-receive-tariff-waivers-from-president-trump-in-2025/",
         "urlToImage": "https://149359564.v2.pressablecdn.com/wp-content/uploads/2024/12/241209_apple_logo.png",
         "publishedAt": "2024-12-17T14:50:54Z",
-        "content": "Deepwater Asset Management\u2019s Gene Munster got several of his 2024 predictions regarding Apple correct:\r\n Apple will bring generative AI to Siri.Got it.Apples use of its own SLMs to power Apple Intell\u2026 [+1829 chars]"
+        "content": "Deepwater Asset Management\u2019s Gene Munster got several of his 2024 predictions regarding Apple correct:\r\n Apple will bring generative AI to Siri.Got it.Apples use of its own SLMs to power Apple Intell\u2026 [+1829 chars]",
+        "id": 83,
+        "imageId": "img_83"
     },
     {
         "source": {
@@ -1089,7 +1255,9 @@
         "url": "https://biztoc.com/x/94c8af1cdf8a7d70",
         "urlToImage": "https://biztoc.com/cdn/94c8af1cdf8a7d70_s.webp",
         "publishedAt": "2024-12-17T14:48:38Z",
-        "content": "Member of the British Parliament (MP) for Clacton and Leader of Reform UK Nigel Farage and his newly announced donor, billionaire property developer Nick Candy (pictured right), met with Tesla Inc. a\u2026 [+69 chars]"
+        "content": "Member of the British Parliament (MP) for Clacton and Leader of Reform UK Nigel Farage and his newly announced donor, billionaire property developer Nick Candy (pictured right), met with Tesla Inc. a\u2026 [+69 chars]",
+        "id": 84,
+        "imageId": "img_84"
     },
     {
         "source": {
@@ -1102,7 +1270,9 @@
         "url": "https://thefly.com/permalinks/entry.php/id4040224/TSLA;DGX;ZBH;EPAM;CTSH;ECL;MTCH;MOH;HNST;MQ;COMM;MDB;RBRK;SLAB;GLOB;OTEX-Tesla-upgraded-MongoDB-initiated-Wall-Streets-top-analyst-calls",
         "urlToImage": "https://image.thefly.com/catalog/201811/img_112.jpg",
         "publishedAt": "2024-12-17T14:36:57Z",
-        "content": "News and insights, exclusive to thefly.com\r\nView all On The Fly Stories \u00bb\r\nEarnings calls, analyst events, roadshows and more\r\nThis week\u2019s upcoming IPOs and secondary offerings\r\n<table><tr><th>Mon</t\u2026 [+1566 chars]"
+        "content": "News and insights, exclusive to thefly.com\r\nView all On The Fly Stories \u00bb\r\nEarnings calls, analyst events, roadshows and more\r\nThis week\u2019s upcoming IPOs and secondary offerings\r\n<table><tr><th>Mon</t\u2026 [+1566 chars]",
+        "id": 85,
+        "imageId": "img_85"
     },
     {
         "source": {
@@ -1115,7 +1285,9 @@
         "url": "https://corpgov.law.harvard.edu/2024/12/17/delaware-law-mid-century-far-from-perfect-but-probably-not-leaving-for-las-vegas/",
         "urlToImage": "https://corpgov.law.harvard.edu/wp-content/uploads/2021/03/new-shield-facebook.png",
         "publishedAt": "2024-12-17T14:31:03Z",
-        "content": "Stopping controlling shareholders from taking actions that benefit themselves at the expense of non-controlling (minority) shareholders is an incredibly valuable and worthwhile thing for courts to do\u2026 [+7571 chars]"
+        "content": "Stopping controlling shareholders from taking actions that benefit themselves at the expense of non-controlling (minority) shareholders is an incredibly valuable and worthwhile thing for courts to do\u2026 [+7571 chars]",
+        "id": 86,
+        "imageId": "img_86"
     },
     {
         "source": {
@@ -1128,7 +1300,9 @@
         "url": "https://erickimphotography.com/blog/2024/12/17/just-keep-your-mouth-damn-shut/",
         "urlToImage": null,
         "publishedAt": "2024-12-17T14:30:55Z",
-        "content": "Perhaps our stoic principle if you hear bad, malicious, wrong, incorrect ,,, put your wisdom, intelligence and rationality aside just say Yeah (John Wick style), then keep your mouth shut and keep li\u2026 [+39126 chars]"
+        "content": "Perhaps our stoic principle if you hear bad, malicious, wrong, incorrect ,,, put your wisdom, intelligence and rationality aside just say Yeah (John Wick style), then keep your mouth shut and keep li\u2026 [+39126 chars]",
+        "id": 87,
+        "imageId": "img_87"
     },
     {
         "source": {
@@ -1141,7 +1315,9 @@
         "url": "https://www.wired.com/story/trump-to-block-the-government-and-military-from-buying-evs/",
         "urlToImage": "https://media.wired.com/photos/6760cb01b031e288f0c83d86/191:100/w_1280,c_limit/EV-Gear.jpg",
         "publishedAt": "2024-12-17T14:30:00Z",
-        "content": "The incoming Trump administration has even more plans to delay electric vehicle adoption than previously thought. According to Reuters, which has seen transition team documents, the Trump team wants \u2026 [+4975 chars]"
+        "content": "The incoming Trump administration has even more plans to delay electric vehicle adoption than previously thought. According to Reuters, which has seen transition team documents, the Trump team wants \u2026 [+4975 chars]",
+        "id": 88,
+        "imageId": "img_88"
     },
     {
         "source": {
@@ -1154,7 +1330,9 @@
         "url": "https://www.forbes.com/councils/forbescoachescouncil/2024/12/17/five-winning-communication-strategies-to-balance-authenticity-and-professionalism/",
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/676092d8381286b030f6e9f7/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-17T14:30:00Z",
-        "content": "Sarat Chakravarthi is the founder and CEO of LeadYouth.\r\ngetty\r\nIn today's workplace, authenticity is a prized trait. However, being authentic inevitably brings moments of vulnerability and uncertain\u2026 [+7178 chars]"
+        "content": "Sarat Chakravarthi is the founder and CEO of LeadYouth.\r\ngetty\r\nIn today's workplace, authenticity is a prized trait. However, being authentic inevitably brings moments of vulnerability and uncertain\u2026 [+7178 chars]",
+        "id": 89,
+        "imageId": "img_89"
     },
     {
         "source": {
@@ -1167,7 +1345,9 @@
         "url": "https://www.mediaite.com/news/trump-spox-karoline-leavitt-snubs-elizabeth-warrens-toothless-elon-musk-warning-with-pocahontas-jibe/",
         "urlToImage": "https://www.mediaite.com/wp-content/uploads/2024/12/Untitled-design-1.jpg",
         "publishedAt": "2024-12-17T14:19:32Z",
-        "content": "President-elect Donald Trump spokesperson Karoline Leavitt slammed Senator Elizabeth Warren (D-MA) for playing political games with a toothless letter demanding strict conflict-of-interest rules to g\u2026 [+1442 chars]"
+        "content": "President-elect Donald Trump spokesperson Karoline Leavitt slammed Senator Elizabeth Warren (D-MA) for playing political games with a toothless letter demanding strict conflict-of-interest rules to g\u2026 [+1442 chars]",
+        "id": 90,
+        "imageId": "img_90"
     },
     {
         "source": {
@@ -1180,7 +1360,9 @@
         "url": "https://www.thegatewaypundit.com/2024/12/democrat-megadonor-reid-hoffman-claims-trump-will-weaponize/",
         "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2024/12/screenshot-2024-12-16-at-11.35.44pm-1200x630.jpg",
         "publishedAt": "2024-12-17T14:15:48Z",
-        "content": "Reid Hoffman (Credit: The Diary Of A CEO)\r\nReid Hoffman, the billionaire tech mogul and Democrat megadonor, is once again making headlinesthis time claiming that President-elect Donald Trump will pun\u2026 [+4375 chars]"
+        "content": "Reid Hoffman (Credit: The Diary Of A CEO)\r\nReid Hoffman, the billionaire tech mogul and Democrat megadonor, is once again making headlinesthis time claiming that President-elect Donald Trump will pun\u2026 [+4375 chars]",
+        "id": 91,
+        "imageId": "img_91"
     },
     {
         "source": {
@@ -1193,7 +1375,9 @@
         "url": "https://biztoc.com/x/471bbd5555e1a1e7",
         "urlToImage": "https://biztoc.com/cdn/808/og.png",
         "publishedAt": "2024-12-17T14:15:22Z",
-        "content": "A Mizuho analyst upgraded Tesla shares, outlining a rosy bull-case scenario but projecting more limited upside with his base-case price target.\r\nThis story appeared on marketwatch.com, 2024-12-17 13:\u2026 [+5 chars]"
+        "content": "A Mizuho analyst upgraded Tesla shares, outlining a rosy bull-case scenario but projecting more limited upside with his base-case price target.\r\nThis story appeared on marketwatch.com, 2024-12-17 13:\u2026 [+5 chars]",
+        "id": 92,
+        "imageId": "img_92"
     },
     {
         "source": {
@@ -1206,7 +1390,9 @@
         "url": "https://www.techradar.com/pro/security/ransomware-deepfakes-and-scams-the-digital-landscape-in-2024",
         "urlToImage": "https://cdn.mos.cms.futurecdn.net/ioiGboNmGxjo77hGKRFefJ-1200-80.jpg",
         "publishedAt": "2024-12-17T14:11:23Z",
-        "content": "<ul><li>ESET 2024 Threat Report outlines the year's top risks</li><li>Crypto scams are using deepfake videos to trick victims</li><li>New ransomware groups are growing to replace Lockbit</li></ul>\r\nI\u2026 [+2541 chars]"
+        "content": "<ul><li>ESET 2024 Threat Report outlines the year's top risks</li><li>Crypto scams are using deepfake videos to trick victims</li><li>New ransomware groups are growing to replace Lockbit</li></ul>\r\nI\u2026 [+2541 chars]",
+        "id": 93,
+        "imageId": "img_93"
     },
     {
         "source": {
@@ -1219,7 +1405,9 @@
         "url": "https://www.digitaltrends.com/cars/2025-audi-q6-e-tron-review/",
         "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2024/12/DSC_0824.jpg?resize=1200%2C630&p=1",
         "publishedAt": "2024-12-17T14:00:32Z",
-        "content": "Table of Contents\r\nTable of Contents\r\n2025 Audi Q6 e-tron: design\r\n2025 Audi Q6 e-tron: specs\r\n2025 Audi Q6 e-tron: tech\r\n2025 Audi Q6 e-tron: driving experience\r\n2025 Audi Q6 e-tron: range and charg\u2026 [+10421 chars]"
+        "content": "Table of Contents\r\nTable of Contents\r\n2025 Audi Q6 e-tron: design\r\n2025 Audi Q6 e-tron: specs\r\n2025 Audi Q6 e-tron: tech\r\n2025 Audi Q6 e-tron: driving experience\r\n2025 Audi Q6 e-tron: range and charg\u2026 [+10421 chars]",
+        "id": 94,
+        "imageId": "img_94"
     },
     {
         "source": {
@@ -1232,7 +1420,9 @@
         "url": "https://jalopnik.com/2025-audi-q6-and-sq6-e-tron-are-completely-nice-if-not-1851722535",
         "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/dfb8e5a623d38f95ac10a774f2a177ef.jpg",
         "publishedAt": "2024-12-17T14:00:00Z",
-        "content": "Growing up, I always saw Audis cars, design language and overall vibe as the most modern, daring, and chic of any automaker in the U.S., but over recent years the brand seems to have lost its way a b\u2026 [+9972 chars]"
+        "content": "Growing up, I always saw Audis cars, design language and overall vibe as the most modern, daring, and chic of any automaker in the U.S., but over recent years the brand seems to have lost its way a b\u2026 [+9972 chars]",
+        "id": 95,
+        "imageId": "img_95"
     },
     {
         "source": {
@@ -1245,7 +1435,9 @@
         "url": "https://www.motorauthority.com/news/1145307_2025-audi-sq6-e-tron-test-drive-review",
         "urlToImage": "https://images.hgmsites.net/hug/2025-audi-q6-e-tron_100953111_h.webp",
         "publishedAt": "2024-12-17T14:00:00Z",
-        "content": "<ul><li>Market debut of new platform set to also underpin Q6 Sportback, A6 sedan</li><li>Audi SQ6 E-Tron does 0-60 mph in 4.1 seconds, from 509-hp dual-motor system</li><li>Gets an EPA-rated 275 mile\u2026 [+7587 chars]"
+        "content": "<ul><li>Market debut of new platform set to also underpin Q6 Sportback, A6 sedan</li><li>Audi SQ6 E-Tron does 0-60 mph in 4.1 seconds, from 509-hp dual-motor system</li><li>Gets an EPA-rated 275 mile\u2026 [+7587 chars]",
+        "id": 96,
+        "imageId": "img_96"
     },
     {
         "source": {
@@ -1258,7 +1450,9 @@
         "url": "https://news.sky.com/story/nigel-farage-and-reform-party-treasurer-nick-candy-meet-elon-musk-at-trumps-mar-a-lago-resort-13275478",
         "urlToImage": "https://e3.365dm.com/24/12/1600x900/skynews-elon-musk-farage-xxxx_6778807.jpg?20241217144932",
         "publishedAt": "2024-12-17T13:58:00Z",
-        "content": "Nigel Farage and his party treasurer have met with Elon Musk at Donald Trump's Mar-a-Lago resort for the first time since rumours surfaced of a multi-million donation from the tech tycoon.\r\nThe Refor\u2026 [+3316 chars]"
+        "content": "Nigel Farage and his party treasurer have met with Elon Musk at Donald Trump's Mar-a-Lago resort for the first time since rumours surfaced of a multi-million donation from the tech tycoon.\r\nThe Refor\u2026 [+3316 chars]",
+        "id": 97,
+        "imageId": "img_97"
     },
     {
         "source": {
@@ -1271,7 +1465,9 @@
         "url": "https://biztoc.com/x/69c89228cc7ea5a6",
         "urlToImage": "https://biztoc.com/cdn/808/og.png",
         "publishedAt": "2024-12-17T13:42:08Z",
-        "content": "Tesla Inc. (NASDAQ: TSLA) shares are up 86% so far this year. Most of the run has been since the presidential election. By contrast, the S&amp;P 500 is 27% higher in 2024. The jump has taken the elec\u2026 [+151 chars]"
+        "content": "Tesla Inc. (NASDAQ: TSLA) shares are up 86% so far this year. Most of the run has been since the presidential election. By contrast, the S&amp;P 500 is 27% higher in 2024. The jump has taken the elec\u2026 [+151 chars]",
+        "id": 98,
+        "imageId": "img_98"
     },
     {
         "source": {
@@ -1284,7 +1480,9 @@
         "url": "https://www.gamingonlinux.com/2024/12/drill-ship-survival-game-volcanoids-adds-big-mech-spiders-and-tanks-that-drill-up-through-the-ground-to-say-hi/.",
         "urlToImage": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1756033119id25866gol.jpg",
         "publishedAt": "2024-12-17T13:35:23Z",
-        "content": "I still think Volcanoids has one of the absolutely coolest ideas for a survival game, with your base being a big moving drill that burrows through the earth and it just keeps on getting better. Volca\u2026 [+2561 chars]"
+        "content": "I still think Volcanoids has one of the absolutely coolest ideas for a survival game, with your base being a big moving drill that burrows through the earth and it just keeps on getting better. Volca\u2026 [+2561 chars]",
+        "id": 99,
+        "imageId": "img_99"
     },
     {
         "source": {
@@ -1297,7 +1495,9 @@
         "url": "https://www.mediaite.com/news/elizabeth-warren-demands-trump-set-up-conflict-of-interests-guardrails-for-elon-musk/",
         "urlToImage": "https://www.mediaite.com/wp-content/uploads/2024/08/Elizabeth-Warren-Goes-Off-On-Trump-In-Blistering-DNC-Speech-\u2014-Finishes-With-Brutal-Couch-Reference.jpg",
         "publishedAt": "2024-12-17T13:33:32Z",
-        "content": "Senator Elizabeth Warren (D-MA) demanded the implementation of robust conflict-of-interest rules for Elon Musk, who has emerged as a key figure in President-elect Donald Trumps inner circle.\r\nMusk, t\u2026 [+1872 chars]"
+        "content": "Senator Elizabeth Warren (D-MA) demanded the implementation of robust conflict-of-interest rules for Elon Musk, who has emerged as a key figure in President-elect Donald Trumps inner circle.\r\nMusk, t\u2026 [+1872 chars]",
+        "id": 100,
+        "imageId": "img_100"
     },
     {
         "source": {
@@ -1310,7 +1510,9 @@
         "url": "https://biztoc.com/x/3bb7893621faa2e5",
         "urlToImage": "https://biztoc.com/cdn/3bb7893621faa2e5_s.webp",
         "publishedAt": "2024-12-17T13:30:54Z",
-        "content": "vehicle insurance registrations in China retreated sequentially last week, but the EV giant is still trending towards a strong quarterly performance in the key electric vehicle market. Meanwhile, Tes\u2026 [+141 chars]"
+        "content": "vehicle insurance registrations in China retreated sequentially last week, but the EV giant is still trending towards a strong quarterly performance in the key electric vehicle market. Meanwhile, Tes\u2026 [+141 chars]",
+        "id": 101,
+        "imageId": "img_101"
     },
     {
         "source": {
@@ -1323,7 +1525,9 @@
         "url": "https://www.marketwatch.com/story/teslas-stock-surge-means-even-the-biggest-bulls-are-showing-some-restraint-e71ddb02",
         "urlToImage": "https://images.mktw.net/im-871639/social",
         "publishedAt": "2024-12-17T13:28:00Z",
-        "content": "Better late than never?\r\nMizuho analyst Vijay Rakesh missed out on the big rally in Tesla Inc. shares \r\nTSLA this year, by holding a neutral stance on the stock for much of 2024. But he sees more ups\u2026 [+150 chars]"
+        "content": "Better late than never?\r\nMizuho analyst Vijay Rakesh missed out on the big rally in Tesla Inc. shares \r\nTSLA this year, by holding a neutral stance on the stock for much of 2024. But he sees more ups\u2026 [+150 chars]",
+        "id": 102,
+        "imageId": "img_102"
     },
     {
         "source": {
@@ -1336,7 +1540,9 @@
         "url": "http://electrek.co/2024/12/17/european-automakers-slash-ev-prices-while-raising-ice-models/",
         "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/09/Volkswagens-ID.3-GTX-FIREICE-1.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
         "publishedAt": "2024-12-17T13:26:47Z",
-        "content": "Volkswagen ID.3 GTX FIRE+ICE (Source: Volkswagen)\r\nEuropean automakers are reducing prices on EVs while raising prices on their ICE models, all in hopes of avoiding hefty fines as the European Unions\u2026 [+3805 chars]"
+        "content": "Volkswagen ID.3 GTX FIRE+ICE (Source: Volkswagen)\r\nEuropean automakers are reducing prices on EVs while raising prices on their ICE models, all in hopes of avoiding hefty fines as the European Unions\u2026 [+3805 chars]",
+        "id": 103,
+        "imageId": "img_103"
     },
     {
         "source": {
@@ -1349,7 +1555,9 @@
         "url": "https://financialpost.com/pmn/business-pmn/elon-musks-preschool-is-the-next-step-in-his-anti-woke-education-dreams",
         "urlToImage": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2024/12/no-title-provided-4.jpg",
         "publishedAt": "2024-12-17T13:24:13Z",
-        "content": "Proposed schedule at Ad Astra includes thematic, STEM-based activities as well as outdoor play and nap time.\r\nAuthor of the article:\r\nAd Astra, a Montessori preschool, ahead of its opening outside Ba\u2026 [+12925 chars]"
+        "content": "Proposed schedule at Ad Astra includes thematic, STEM-based activities as well as outdoor play and nap time.\r\nAuthor of the article:\r\nAd Astra, a Montessori preschool, ahead of its opening outside Ba\u2026 [+12925 chars]",
+        "id": 104,
+        "imageId": "img_104"
     },
     {
         "source": {
@@ -1362,7 +1570,9 @@
         "url": "https://ryueyes11.tistory.com/511362",
         "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpWZNI%2FbtsLlLqcgAO%2FM85IFKRmoklsAc2WKJnKek%2Fimg.jpg",
         "publishedAt": "2024-12-17T13:23:47Z",
-        "content": "President-elect Trump settled a defamation lawsuit with ABC News for $15 million.\r\nThe suit followed a segment in which George Stephanopoulos inaccurately said Trump had been found civilly liable for\u2026 [+1712 chars]"
+        "content": "President-elect Trump settled a defamation lawsuit with ABC News for $15 million.\r\nThe suit followed a segment in which George Stephanopoulos inaccurately said Trump had been found civilly liable for\u2026 [+1712 chars]",
+        "id": 105,
+        "imageId": "img_105"
     },
     {
         "source": {
@@ -1375,7 +1585,9 @@
         "url": "https://www.bbc.com/sport/football/champions-league-draw",
         "urlToImage": "https://example.com/images/champions-league.jpg",
         "publishedAt": "2024-12-19T08:30:00Z",
-        "content": "The UEFA Champions League draw has been announced, and fans are eagerly awaiting..."
+        "content": "The UEFA Champions League draw has been announced, and fans are eagerly awaiting...",
+        "id": 106,
+        "imageId": "img_106"
     },
     {
         "source": {
@@ -1388,7 +1600,9 @@
         "url": "https://theathletic.com/football/tech-transformation",
         "urlToImage": "https://example.com/images/football-tech.jpg",
         "publishedAt": "2024-12-18T14:00:00Z",
-        "content": "The introduction of technology in football has revolutionized the way the game is played and officiated..."
+        "content": "The introduction of technology in football has revolutionized the way the game is played and officiated...",
+        "id": 107,
+        "imageId": "img_107"
     },
     {
         "source": {
@@ -1401,7 +1615,9 @@
         "url": "https://www.harpersbazaar.com/fashion/red-carpet-2024",
         "urlToImage": "https://example.com/images/red-carpet.jpg",
         "publishedAt": "2024-12-17T10:30:00Z",
-        "content": "From dazzling gowns to avant-garde designs, 2024 has been a year to remember for celebrity fashion..."
+        "content": "From dazzling gowns to avant-garde designs, 2024 has been a year to remember for celebrity fashion...",
+        "id": 108,
+        "imageId": "img_108"
     },
     {
         "source": {
@@ -1414,7 +1630,9 @@
         "url": "https://www.marieclaire.com/fashion/sustainable-brands",
         "urlToImage": "https://example.com/images/sustainable-fashion.jpg",
         "publishedAt": "2024-12-15T09:00:00Z",
-        "content": "As the world moves toward sustainability, these fashion brands are leading the charge with eco-conscious designs..."
+        "content": "As the world moves toward sustainability, these fashion brands are leading the charge with eco-conscious designs...",
+        "id": 109,
+        "imageId": "img_109"
     },
     {
         "source": {
@@ -1427,7 +1645,9 @@
         "url": "https://www.rollingstone.com/music/best-albums-2024",
         "urlToImage": "https://example.com/images/best-albums.jpg",
         "publishedAt": "2024-12-20T13:45:00Z",
-        "content": "2024 has been a remarkable year for music, with incredible albums from artists around the world..."
+        "content": "2024 has been a remarkable year for music, with incredible albums from artists around the world...",
+        "id": 110,
+        "imageId": "img_110"
     },
     {
         "source": {
@@ -1440,7 +1660,9 @@
         "url": "https://www.eonline.com/shows/top-10-binge-winter",
         "urlToImage": "https://example.com/images/binge-worthy.jpg",
         "publishedAt": "2024-12-18T19:00:00Z",
-        "content": "As the weather gets colder, there's nothing better than cozying up with a great TV show..."
+        "content": "As the weather gets colder, there's nothing better than cozying up with a great TV show...",
+        "id": 111,
+        "imageId": "img_111"
     },
     {
         "source": {
@@ -1453,7 +1675,9 @@
         "url": "https://example.com/football/entry-1",
         "urlToImage": "https://example.com/images/football-1.jpg",
         "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 1 in the Football category."
+        "content": "Sample content for entry 1 in the Football category.",
+        "id": 112,
+        "imageId": "img_112"
     },
     {
         "source": {
@@ -1466,7 +1690,9 @@
         "url": "https://example.com/fashion/entry-2",
         "urlToImage": "https://example.com/images/fashion-2.jpg",
         "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 2 in the Fashion category."
+        "content": "Sample content for entry 2 in the Fashion category.",
+        "id": 113,
+        "imageId": "img_113"
     },
     {
         "source": {
@@ -1479,7 +1705,9 @@
         "url": "https://example.com/entertainment/entry-3",
         "urlToImage": "https://example.com/images/entertainment-3.jpg",
         "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 3 in the Entertainment category."
+        "content": "Sample content for entry 3 in the Entertainment category.",
+        "id": 114,
+        "imageId": "img_114"
     },
     {
         "source": {
@@ -1492,7 +1720,9 @@
         "url": "https://example.com/football/entry-4",
         "urlToImage": "https://example.com/images/football-4.jpg",
         "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 4 in the Football category."
+        "content": "Sample content for entry 4 in the Football category.",
+        "id": 115,
+        "imageId": "img_115"
     },
     {
         "source": {
@@ -1505,7 +1735,9 @@
         "url": "https://example.com/fashion/entry-5",
         "urlToImage": "https://example.com/images/fashion-5.jpg",
         "publishedAt": "2024-12-14T14:00:00Z",
-        "content": "Sample content for entry 5 in the Fashion category."
+        "content": "Sample content for entry 5 in the Fashion category.",
+        "id": 116,
+        "imageId": "img_116"
     },
     {
         "source": {
@@ -1518,7 +1750,9 @@
         "url": "https://example.com/entertainment/entry-6",
         "urlToImage": "https://example.com/images/entertainment-6.jpg",
         "publishedAt": "2024-12-15T15:00:00Z",
-        "content": "Sample content for entry 6 in the Entertainment category."
+        "content": "Sample content for entry 6 in the Entertainment category.",
+        "id": 117,
+        "imageId": "img_117"
     },
     {
         "source": {
@@ -1531,7 +1765,9 @@
         "url": "https://example.com/football/entry-7",
         "urlToImage": "https://example.com/images/football-7.jpg",
         "publishedAt": "2024-12-16T16:00:00Z",
-        "content": "Sample content for entry 7 in the Football category."
+        "content": "Sample content for entry 7 in the Football category.",
+        "id": 118,
+        "imageId": "img_118"
     },
     {
         "source": {
@@ -1544,7 +1780,9 @@
         "url": "https://example.com/fashion/entry-8",
         "urlToImage": "https://example.com/images/fashion-8.jpg",
         "publishedAt": "2024-12-17T17:00:00Z",
-        "content": "Sample content for entry 8 in the Fashion category."
+        "content": "Sample content for entry 8 in the Fashion category.",
+        "id": 119,
+        "imageId": "img_119"
     },
     {
         "source": {
@@ -1557,7 +1795,9 @@
         "url": "https://example.com/entertainment/entry-9",
         "urlToImage": "https://example.com/images/entertainment-9.jpg",
         "publishedAt": "2024-12-18T18:00:00Z",
-        "content": "Sample content for entry 9 in the Entertainment category."
+        "content": "Sample content for entry 9 in the Entertainment category.",
+        "id": 120,
+        "imageId": "img_120"
     },
     {
         "source": {
@@ -1570,7 +1810,9 @@
         "url": "https://example.com/football/entry-10",
         "urlToImage": "https://example.com/images/football-10.jpg",
         "publishedAt": "2024-12-19T19:00:00Z",
-        "content": "Sample content for entry 10 in the Football category."
+        "content": "Sample content for entry 10 in the Football category.",
+        "id": 121,
+        "imageId": "img_121"
     },
     {
         "source": {
@@ -1583,7 +1825,9 @@
         "url": "https://example.com/fashion/entry-11",
         "urlToImage": "https://example.com/images/fashion-11.jpg",
         "publishedAt": "2024-12-20T10:00:00Z",
-        "content": "Sample content for entry 11 in the Fashion category."
+        "content": "Sample content for entry 11 in the Fashion category.",
+        "id": 122,
+        "imageId": "img_122"
     },
     {
         "source": {
@@ -1596,7 +1840,9 @@
         "url": "https://example.com/entertainment/entry-12",
         "urlToImage": "https://example.com/images/entertainment-12.jpg",
         "publishedAt": "2024-12-21T11:00:00Z",
-        "content": "Sample content for entry 12 in the Entertainment category."
+        "content": "Sample content for entry 12 in the Entertainment category.",
+        "id": 123,
+        "imageId": "img_123"
     },
     {
         "source": {
@@ -1609,7 +1855,9 @@
         "url": "https://example.com/football/entry-13",
         "urlToImage": "https://example.com/images/football-13.jpg",
         "publishedAt": "2024-12-22T12:00:00Z",
-        "content": "Sample content for entry 13 in the Football category."
+        "content": "Sample content for entry 13 in the Football category.",
+        "id": 124,
+        "imageId": "img_124"
     },
     {
         "source": {
@@ -1622,7 +1870,9 @@
         "url": "https://example.com/fashion/entry-14",
         "urlToImage": "https://example.com/images/fashion-14.jpg",
         "publishedAt": "2024-12-23T13:00:00Z",
-        "content": "Sample content for entry 14 in the Fashion category."
+        "content": "Sample content for entry 14 in the Fashion category.",
+        "id": 125,
+        "imageId": "img_125"
     },
     {
         "source": {
@@ -1635,7 +1885,9 @@
         "url": "https://example.com/entertainment/entry-15",
         "urlToImage": "https://example.com/images/entertainment-15.jpg",
         "publishedAt": "2024-12-24T14:00:00Z",
-        "content": "Sample content for entry 15 in the Entertainment category."
+        "content": "Sample content for entry 15 in the Entertainment category.",
+        "id": 126,
+        "imageId": "img_126"
     },
     {
         "source": {
@@ -1648,7 +1900,9 @@
         "url": "https://example.com/football/entry-16",
         "urlToImage": "https://example.com/images/football-16.jpg",
         "publishedAt": "2024-12-25T15:00:00Z",
-        "content": "Sample content for entry 16 in the Football category."
+        "content": "Sample content for entry 16 in the Football category.",
+        "id": 127,
+        "imageId": "img_127"
     },
     {
         "source": {
@@ -1661,7 +1915,9 @@
         "url": "https://example.com/fashion/entry-17",
         "urlToImage": "https://example.com/images/fashion-17.jpg",
         "publishedAt": "2024-12-26T16:00:00Z",
-        "content": "Sample content for entry 17 in the Fashion category."
+        "content": "Sample content for entry 17 in the Fashion category.",
+        "id": 128,
+        "imageId": "img_128"
     },
     {
         "source": {
@@ -1674,7 +1930,9 @@
         "url": "https://example.com/entertainment/entry-18",
         "urlToImage": "https://example.com/images/entertainment-18.jpg",
         "publishedAt": "2024-12-27T17:00:00Z",
-        "content": "Sample content for entry 18 in the Entertainment category."
+        "content": "Sample content for entry 18 in the Entertainment category.",
+        "id": 129,
+        "imageId": "img_129"
     },
     {
         "source": {
@@ -1687,7 +1945,9 @@
         "url": "https://example.com/football/entry-19",
         "urlToImage": "https://example.com/images/football-19.jpg",
         "publishedAt": "2024-12-28T18:00:00Z",
-        "content": "Sample content for entry 19 in the Football category."
+        "content": "Sample content for entry 19 in the Football category.",
+        "id": 130,
+        "imageId": "img_130"
     },
     {
         "source": {
@@ -1700,7 +1960,9 @@
         "url": "https://example.com/fashion/entry-20",
         "urlToImage": "https://example.com/images/fashion-20.jpg",
         "publishedAt": "2024-12-29T19:00:00Z",
-        "content": "Sample content for entry 20 in the Fashion category."
+        "content": "Sample content for entry 20 in the Fashion category.",
+        "id": 131,
+        "imageId": "img_131"
     },
     {
         "source": {
@@ -1713,7 +1975,9 @@
         "url": "https://example.com/entertainment/entry-21",
         "urlToImage": "https://example.com/images/entertainment-21.jpg",
         "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 21 in the Entertainment category."
+        "content": "Sample content for entry 21 in the Entertainment category.",
+        "id": 132,
+        "imageId": "img_132"
     },
     {
         "source": {
@@ -1726,7 +1990,9 @@
         "url": "https://example.com/football/entry-22",
         "urlToImage": "https://example.com/images/football-22.jpg",
         "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 22 in the Football category."
+        "content": "Sample content for entry 22 in the Football category.",
+        "id": 133,
+        "imageId": "img_133"
     },
     {
         "source": {
@@ -1739,7 +2005,9 @@
         "url": "https://example.com/fashion/entry-23",
         "urlToImage": "https://example.com/images/fashion-23.jpg",
         "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 23 in the Fashion category."
+        "content": "Sample content for entry 23 in the Fashion category.",
+        "id": 134,
+        "imageId": "img_134"
     },
     {
         "source": {
@@ -1752,7 +2020,9 @@
         "url": "https://example.com/entertainment/entry-24",
         "urlToImage": "https://example.com/images/entertainment-24.jpg",
         "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 24 in the Entertainment category."
+        "content": "Sample content for entry 24 in the Entertainment category.",
+        "id": 135,
+        "imageId": "img_135"
     },
     {
         "source": {
@@ -1765,7 +2035,9 @@
         "url": "https://example.com/football/entry-25",
         "urlToImage": "https://example.com/images/football-25.jpg",
         "publishedAt": "2024-12-14T14:00:00Z",
-        "content": "Sample content for entry 25 in the Football category."
+        "content": "Sample content for entry 25 in the Football category.",
+        "id": 136,
+        "imageId": "img_136"
     },
     {
         "source": {
@@ -1778,7 +2050,9 @@
         "url": "https://example.com/fashion/entry-26",
         "urlToImage": "https://example.com/images/fashion-26.jpg",
         "publishedAt": "2024-12-15T15:00:00Z",
-        "content": "Sample content for entry 26 in the Fashion category."
+        "content": "Sample content for entry 26 in the Fashion category.",
+        "id": 137,
+        "imageId": "img_137"
     },
     {
         "source": {
@@ -1791,7 +2065,9 @@
         "url": "https://example.com/entertainment/entry-27",
         "urlToImage": "https://example.com/images/entertainment-27.jpg",
         "publishedAt": "2024-12-16T16:00:00Z",
-        "content": "Sample content for entry 27 in the Entertainment category."
+        "content": "Sample content for entry 27 in the Entertainment category.",
+        "id": 138,
+        "imageId": "img_138"
     },
     {
         "source": {
@@ -1804,7 +2080,9 @@
         "url": "https://example.com/football/entry-28",
         "urlToImage": "https://example.com/images/football-28.jpg",
         "publishedAt": "2024-12-17T17:00:00Z",
-        "content": "Sample content for entry 28 in the Football category."
+        "content": "Sample content for entry 28 in the Football category.",
+        "id": 139,
+        "imageId": "img_139"
     },
     {
         "source": {
@@ -1817,7 +2095,9 @@
         "url": "https://example.com/fashion/entry-29",
         "urlToImage": "https://example.com/images/fashion-29.jpg",
         "publishedAt": "2024-12-18T18:00:00Z",
-        "content": "Sample content for entry 29 in the Fashion category."
+        "content": "Sample content for entry 29 in the Fashion category.",
+        "id": 140,
+        "imageId": "img_140"
     },
     {
         "source": {
@@ -1830,7 +2110,9 @@
         "url": "https://example.com/entertainment/entry-30",
         "urlToImage": "https://example.com/images/entertainment-30.jpg",
         "publishedAt": "2024-12-19T19:00:00Z",
-        "content": "Sample content for entry 30 in the Entertainment category."
+        "content": "Sample content for entry 30 in the Entertainment category.",
+        "id": 141,
+        "imageId": "img_141"
     },
     {
         "source": {
@@ -1843,7 +2125,9 @@
         "url": "https://example.com/football/entry-31",
         "urlToImage": "https://example.com/images/football-31.jpg",
         "publishedAt": "2024-12-20T10:00:00Z",
-        "content": "Sample content for entry 31 in the Football category."
+        "content": "Sample content for entry 31 in the Football category.",
+        "id": 142,
+        "imageId": "img_142"
     },
     {
         "source": {
@@ -1856,7 +2140,9 @@
         "url": "https://example.com/fashion/entry-32",
         "urlToImage": "https://example.com/images/fashion-32.jpg",
         "publishedAt": "2024-12-21T11:00:00Z",
-        "content": "Sample content for entry 32 in the Fashion category."
+        "content": "Sample content for entry 32 in the Fashion category.",
+        "id": 143,
+        "imageId": "img_143"
     },
     {
         "source": {
@@ -1869,7 +2155,9 @@
         "url": "https://example.com/entertainment/entry-33",
         "urlToImage": "https://example.com/images/entertainment-33.jpg",
         "publishedAt": "2024-12-22T12:00:00Z",
-        "content": "Sample content for entry 33 in the Entertainment category."
+        "content": "Sample content for entry 33 in the Entertainment category.",
+        "id": 144,
+        "imageId": "img_144"
     },
     {
         "source": {
@@ -1882,7 +2170,9 @@
         "url": "https://example.com/football/entry-34",
         "urlToImage": "https://example.com/images/football-34.jpg",
         "publishedAt": "2024-12-23T13:00:00Z",
-        "content": "Sample content for entry 34 in the Football category."
+        "content": "Sample content for entry 34 in the Football category.",
+        "id": 145,
+        "imageId": "img_145"
     },
     {
         "source": {
@@ -1895,7 +2185,9 @@
         "url": "https://example.com/fashion/entry-35",
         "urlToImage": "https://example.com/images/fashion-35.jpg",
         "publishedAt": "2024-12-24T14:00:00Z",
-        "content": "Sample content for entry 35 in the Fashion category."
+        "content": "Sample content for entry 35 in the Fashion category.",
+        "id": 146,
+        "imageId": "img_146"
     },
     {
         "source": {
@@ -1908,7 +2200,9 @@
         "url": "https://example.com/entertainment/entry-36",
         "urlToImage": "https://example.com/images/entertainment-36.jpg",
         "publishedAt": "2024-12-25T15:00:00Z",
-        "content": "Sample content for entry 36 in the Entertainment category."
+        "content": "Sample content for entry 36 in the Entertainment category.",
+        "id": 147,
+        "imageId": "img_147"
     },
     {
         "source": {
@@ -1921,7 +2215,9 @@
         "url": "https://example.com/football/entry-37",
         "urlToImage": "https://example.com/images/football-37.jpg",
         "publishedAt": "2024-12-26T16:00:00Z",
-        "content": "Sample content for entry 37 in the Football category."
+        "content": "Sample content for entry 37 in the Football category.",
+        "id": 148,
+        "imageId": "img_148"
     },
     {
         "source": {
@@ -1934,7 +2230,9 @@
         "url": "https://example.com/fashion/entry-38",
         "urlToImage": "https://example.com/images/fashion-38.jpg",
         "publishedAt": "2024-12-27T17:00:00Z",
-        "content": "Sample content for entry 38 in the Fashion category."
+        "content": "Sample content for entry 38 in the Fashion category.",
+        "id": 149,
+        "imageId": "img_149"
     },
     {
         "source": {
@@ -1947,7 +2245,9 @@
         "url": "https://example.com/entertainment/entry-39",
         "urlToImage": "https://example.com/images/entertainment-39.jpg",
         "publishedAt": "2024-12-28T18:00:00Z",
-        "content": "Sample content for entry 39 in the Entertainment category."
+        "content": "Sample content for entry 39 in the Entertainment category.",
+        "id": 150,
+        "imageId": "img_150"
     },
     {
         "source": {
@@ -1960,7 +2260,9 @@
         "url": "https://example.com/football/entry-40",
         "urlToImage": "https://example.com/images/football-40.jpg",
         "publishedAt": "2024-12-29T19:00:00Z",
-        "content": "Sample content for entry 40 in the Football category."
+        "content": "Sample content for entry 40 in the Football category.",
+        "id": 151,
+        "imageId": "img_151"
     },
     {
         "source": {
@@ -1973,7 +2275,9 @@
         "url": "https://example.com/fashion/entry-41",
         "urlToImage": "https://example.com/images/fashion-41.jpg",
         "publishedAt": "2024-12-10T10:00:00Z",
-        "content": "Sample content for entry 41 in the Fashion category."
+        "content": "Sample content for entry 41 in the Fashion category.",
+        "id": 152,
+        "imageId": "img_152"
     },
     {
         "source": {
@@ -1986,7 +2290,9 @@
         "url": "https://example.com/entertainment/entry-42",
         "urlToImage": "https://example.com/images/entertainment-42.jpg",
         "publishedAt": "2024-12-11T11:00:00Z",
-        "content": "Sample content for entry 42 in the Entertainment category."
+        "content": "Sample content for entry 42 in the Entertainment category.",
+        "id": 153,
+        "imageId": "img_153"
     },
     {
         "source": {
@@ -1999,7 +2305,9 @@
         "url": "https://example.com/football/entry-43",
         "urlToImage": "https://example.com/images/football-43.jpg",
         "publishedAt": "2024-12-12T12:00:00Z",
-        "content": "Sample content for entry 43 in the Football category."
+        "content": "Sample content for entry 43 in the Football category.",
+        "id": 154,
+        "imageId": "img_154"
     },
     {
         "source": {
@@ -2012,6 +2320,8 @@
         "url": "https://example.com/fashion/entry-44",
         "urlToImage": "https://example.com/images/fashion-44.jpg",
         "publishedAt": "2024-12-13T13:00:00Z",
-        "content": "Sample content for entry 44 in the Fashion category."
+        "content": "Sample content for entry 44 in the Fashion category.",
+        "id": 155,
+        "imageId": "img_155"
     }
 ]

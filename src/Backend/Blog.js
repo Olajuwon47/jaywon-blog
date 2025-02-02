@@ -1,15 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const blog = require('./blog.json'); // Import the product data
+const fs = require('fs');
+//const path = require('path');
+const blog = require('./blog.json'); 
 
-/*router.get('/blog', (req, res) => {
-  if (!Array.isArray(blog)) {
-    console.error("blog.json is not an array. Wrapping it in an array.");
-  res.json(blog); 
-} else {
-  res.json(blog); 
-}
-});*/
+const BLOG_FILE = path.join(__dirname, 'blogs.json');
 
 // GET: Fetch all blogs
 router.get('/blogs', (req, res) => {
@@ -38,7 +33,7 @@ router.post('/blogs', (req, res) => {
             if (err) {
                 return res.status(500).json({ message: "Error saving blog" });
             }
-            res.status(201).json({ message: "Blog added", blog: newBlog });
+            res.status(200).json({ message: "Blog added", blog: newBlog });
         });
     });
 });
