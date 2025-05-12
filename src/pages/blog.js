@@ -6,7 +6,7 @@ export default function Bloglist() {
   const navigate= useNavigate()
 
   const handleclick = (id) => {
-    fetch(`http://localhost:3001/api/blogs/${id}`/*+ blogs.id*/, {
+    fetch(`http://localhost:3001/Data/blogs.json/${id}`/*+ blogs.id*/, {
       metod:'DELETE'
     }).then(()=>{
       navigate.push('/')
@@ -32,7 +32,7 @@ export default function Bloglist() {
           }
         }*/
 
-        const response = await fetch('http://localhost:3001/api/blogs');
+        const response = await fetch('http://localhost:3001/Data/blogs.json');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
