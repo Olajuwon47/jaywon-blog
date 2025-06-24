@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router';
 
 export default function Bloglist() {
   const [blogs, setBlogs] = useState([]);
+   const [searchTerm, setSearchTerm] = useState("");
   const navigate= useNavigate()
 
   const handleclick = (id) => {
@@ -61,6 +62,34 @@ export default function Bloglist() {
           <p className="mt-2 text-lg/8 text-gray-900">
             Learn how to grow your business with our expert advice.
           </p>
+
+             {/* Search */}
+        <div className="max-w-xl mx-auto">
+          <div className="relative bg-gradient-to-l from-blue-600 via-purple-700 to-rose-900 p-[2px] rounded-md">
+            <div className="bg-white rounded-md flex items-center">
+              <svg
+                className="ml-3 w-5 h-5 text-gray-400"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 21l-4.35-4.35M17 17A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.5 13.5z"
+                />
+              </svg>
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search courses, departments, etc..."
+                className="w-full px-8 py-2 pl-4 rounded-sm outline-none bg-white text-gray-800"
+              />
+            </div>
+          </div>
+        </div>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {blogs.map((blog) => (
