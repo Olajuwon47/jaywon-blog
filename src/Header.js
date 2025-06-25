@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Price', href: '/Price' },
@@ -16,13 +17,13 @@ const navigation = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
+   
   return (
     <div className="">
-      <header className="absolute inset-x-0 bg-lime-200 top-0 z-50">
+      <header className="fixed inset-x-0 bg-lime-200 top-0 z-50">
         <nav
           aria-label="Global"
-          className="flex items-center justify-center p-4 max-sm:p-3 max-md:p-4 lg:px-8"
+          className="flex items-center justify-between p-4 max-sm:p-3 max-md:p-4 lg:px-8"
         >
           {/* Logo */}
           <div className="flex lg:flex-1">
@@ -36,8 +37,21 @@ export default function Header() {
             </a>
           </div>
 
+          {/* Desktop Navigation - Centered */}
+          <div className="hidden lg:flex lg:gap-x-10 lg:flex-1 lg:justify-center">
+            {navigation.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+
           {/* Mobile Menu Button */}
-          <div className="flex lg:hidden">
+          <div className="flex lg:hidden lg:flex-1 lg:justify-end">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
@@ -48,17 +62,9 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex lg:gap-x-10">
-            {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                {item.name}
-              </a>
-            ))}
+          {/* Empty div for balance on desktop */}
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            {/* This empty div balances the layout */}
           </div>
         </nav>
 
@@ -90,7 +96,7 @@ export default function Header() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block text-base font-medium text-gray-900 hover:text-blue-600"
+                      className="block text-base font-medium text-gray-900 hover:text-white-600"
                     >
                       {item.name}
                     </a>
@@ -101,7 +107,8 @@ export default function Header() {
           </DialogPanel>
         </Dialog>
       </header>
+
+      
     </div>
   )
 }
-
