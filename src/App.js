@@ -6,7 +6,7 @@ import  Footer from './Footer.js';
 //import Newletter from './pages/newletter.js';
 //import Team from './pages/Team.js';
 import Blog from './pages/blog.js'; 
-import Contact from './pages/contract.js';
+import Contract from './pages/contract.js';
 import Mission from './pages/Mission.js';
 import About from './pages/About.js';
 import Price from './pages/Price.js';
@@ -21,7 +21,7 @@ function App() {
                   <Route path="blog" element={<Blog/>} />
                   <Route path="About" element={<About/>} />
                   <Route path="Mission" element={<Mission/>} />
-                  <Route path="contact" element={<Contact/>} />
+                  <Route path="contract" element={<Contract/>} />
                   <Route path="Price" element={<Price/>} />
                   <Route path="Add" element={<Add/>} />
        </Routes>
