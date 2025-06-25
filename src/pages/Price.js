@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
+import Subscribe from './subscribe.js';
 
 const tiers = [
   {
@@ -166,37 +167,7 @@ export default function SUBCRIPTION() {
       </div>
     </div>
 
-     <div className="bg-white py-4 px-5  mt-24 rounded-md sm:px-6 lg:py-16 lg:px-8">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-bold  text-gray-900 sm:text-3xl">
-          STAY UPDATED WITH OUR NEWSLETTER
-        </h2>
-        <p className="pb-8 text-lg text-gray-600">
-          Learn your other in one, remember whether it is.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <div className="w-full sm:max-w-md">
-            <label htmlFor="email" className="sr-only">
-              Email address
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              className="w-full px-5 py-3 border border-gray-300 rounded-md shadow-sm bg-gray-200 placeholder-gray-900 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-              placeholder="Enter your email"
-            />
-          </div>
-        </div>
-          <button
-            type="submit"
-            className="w-full mt-5 sm:w-auto px-6 py-2 border border-transparent text-base font-medium rounded-md bg-lime-700  hover:bg-lime-100 text-white shadow-sm"
-          >
-            Subscribe
-          </button>
-      </div>
-    </div>
+     <Subscribe/>
   </>
   );
 }

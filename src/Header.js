@@ -12,7 +12,6 @@ const navigation = [
   { name: 'Blog', href: '/blog' },
   { name: 'Mission', href: '/Mission' },
   { name: 'Contact Us', href: '/contract' },
-  { name: 'Faq', href: '/Faq' },
 ]
 
 export default function Header() {
@@ -43,7 +42,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors"
+                className="text-sm font-semibold leading-6 text-gray-900 hover:text-white-600 transition-colors"
               >
                 {item.name}
               </a>

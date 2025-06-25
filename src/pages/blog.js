@@ -6,17 +6,6 @@ export default function Bloglist() {
    const [searchTerm, setSearchTerm] = useState("");
   const navigate= useNavigate()
 
-  const handleclick = (id) => {
-    fetch(`http://localhost:3001/Data/blogs.json/${id}`/*+ blogs.id*/, {
-      metod:'DELETE'
-    }).then(()=>{
-      navigate.push('/')
-      setBlogs(blogs.filter(blog => blog.id !== id));
-    })
-    .catch((error) => {
-      console.error('Error deleting blog:', error);
-    });
-    };
 
   useEffect(() => {
     async function fetchBlogs() {
@@ -33,7 +22,7 @@ export default function Bloglist() {
           }
         }*/
 
-        const response = await fetch('http://localhost:3001/Data/blogs.json');
+        const response = await fetch('/Data/blogs.json');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -53,7 +42,7 @@ export default function Bloglist() {
   }, []);
 
   return (
-    <div className="bg-lime-50 py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
@@ -91,22 +80,22 @@ export default function Bloglist() {
           </div>
         </div>
         </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {blogs.map((blog) => (
-            <article key={blog.id} className="flex max-w-xl flex-col items-start justify-between">
+            <article key={blog.id} className="flex max-w-xl rounded-lg bg-lime-200 flex-col items-start justify-between">
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={blog.publishedAt} className="text-gray-900">
                   {new Date(blog.publishedAt).toLocaleDateString()}
                 </time>
                 <Link
                   to={blog.url}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  className="relative z-10 rounded-full bg-lime-700 px-3 py-1.5 font-medium text-gray-600 hover:bg-lime-100"
                 >
                   {blog.source?.name || 'Source'}
                 </Link>
               </div>
               <div className="group relative">
-                <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-lg/6 font-semibold text-gray-500 group-hover:text-black">
                   <Link to={blog.url}>
                     <span className="absolute inset-0" />
                     {blog.title}
@@ -135,14 +124,15 @@ export default function Bloglist() {
             </article>
           ))}
         </div>
-        <div className="mt-5">
-          <button onClick={handleclick}
-            type="delete"
-            className= "block w-50 rounded-md bg-lime-50 px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-lime-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-          Delete
-          </button>
-        </div>
+
+         <div className="mt-8 max-sm:mt-6 flex flex-wrap items-center justify-center gap-x-6">
+              <Link
+                to="/Add"
+                className="rounded-md bg-lime-700 px-4 py-2 text-sm max-sm:px-3 max-sm:py-1.5 font-semibold text-black shadow-sm hover:bg-lime-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-300"
+              >
+                Add Blog
+              </Link>
+            </div>
       </div>
     </div>
   );
