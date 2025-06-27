@@ -7,10 +7,8 @@ import  Footer from './Footer.js';
 //import Team from './pages/Team.js';
 import Blog from './pages/blog.js'; 
 import Contract from './pages/contract.js';
-import Mission from './pages/Mission.js';
 import About from './pages/About.js';
 import Price from './pages/Price.js';
-import Add from './pages/Add.js';
 
 function App() {
   return (
@@ -20,10 +18,9 @@ function App() {
                   <Route index  element={<Home />} />
                   <Route path="blog" element={<Blog/>} />
                   <Route path="About" element={<About/>} />
-                  <Route path="Mission" element={<Mission/>} />
                   <Route path="contract" element={<Contract/>} />
                   <Route path="Price" element={<Price/>} />
-                  <Route path="Add" element={<Add/>} />
+                  
        </Routes>
         <Footer/>
     </div>
