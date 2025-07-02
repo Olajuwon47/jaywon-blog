@@ -27,6 +27,11 @@ code {
   }
 }
 
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
 /* Apply the animation to the beatFade class */
 .beatFade {
   animation: beatFade 1.5s infinite ease-in-out; /* Adjust duration and timing */

@@ -1,7 +1,9 @@
 'use client'
 import { useState } from 'react'
 import { Link } from "react-router" 
+import Carousel from './Carousel.js'
 import Subscribe from './subscribe.js';
+
 
 const people = [
   {
@@ -83,7 +85,7 @@ export default function Home() {
 
   return (
     <div className="#">
-      <div className="relative isolate px-4 pt-10 sm:px-6 sm:pt-14 md:px-8 lg:px-8">
+      <div className="relative isolate px-4  sm:px-6 sm:pt-14 md:px-8 lg:px-8">
         <div className="mx-auto max-w-2xl py-20 sm:py-32 md:py-40 lg:py-56">
           <div className="text-center">
             <h1 className="text-balance text-4xl max-sm:text-2xl max-md:text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
@@ -112,6 +114,8 @@ export default function Home() {
         
         </div>
       </div>
+
+      <Carousel/>
 
        <div className="bg-white py-24 sm:py-32">
     <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">

@@ -3,43 +3,32 @@ import { useState, useEffect } from 'react';
 export default function Bloglist() {
   const [blogs, setBlogs] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [visibleCount, setVisibleCount] = useState(6);
 
-  const apiKey = '97a04a8665f64f2c9d4501e9533ec87c';
-
-useEffect(() => {
-  async function fetchAllBlogs() {
-    const urls = [
-      `https://newsapi.org/v2/everything?q=apple&from=2025-06-26&to=2025-06-26&sortBy=popularity&apiKey=${apiKey}`,
-      `https://newsapi.org/v2/everything?q=tesla&from=2025-05-27&sortBy=publishedAt&apiKey=${apiKey}`,
-      `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`,
-      `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`,
-      `https://newsapi.org/v2/everything?domains=wsj.com&apiKey=${apiKey}`,
-    ];
-
-    try {
-      const responses = await Promise.all(urls.map((url) => fetch(url)));
-      const data = await Promise.all(responses.map((res) => res.json()));
-
-      // Merge all articles from each API response
-      const allArticles = data
-        .flatMap((d) => d.articles)
-        .filter((a) => a && a.title); // Safety check
-
-      setBlogs(allArticles);
-    } catch (error) {
-      console.error("Failed to fetch multiple sources:", error);
+  useEffect(() => {
+    async function fetchAllBlogs() {
+      const urls = ["/Data/blogs.json"];
+      try {
+        const responses = await Promise.all(urls.map((url) => fetch(url)));
+        const data = await Promise.all(responses.map((res) => res.json()));
+        const allArticles = data
+          .flatMap((d) => d.articles || d)
+          .filter((a) => a && a.title);
+        setBlogs(allArticles);
+      } catch (error) {
+        console.error("Failed to fetch multiple sources:", error);
+      }
     }
-  }
-
-  fetchAllBlogs();
-}, []);
-
+    fetchAllBlogs();
+  }, []);
 
   const filteredBlogs = blogs.filter(blog =>
     blog.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
     blog.description?.toLowerCase().includes(searchTerm.toLowerCase()) ||
     blog.author?.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const visibleBlogs = filteredBlogs.slice(0, visibleCount);
 
   return (
     <div className="bg-lime-50 py-24 sm:py-32">
@@ -53,20 +42,10 @@ useEffect(() => {
           </p>
 
           <div className="max-w-xl mx-auto mt-6 max-sm:w-full max-md:w-3/4">
-            <div className="relative bg-gradient-to-l from-blue-600 via-purple-700 to-rose-900 p-[2px] rounded-md">
+            <div className="relative bg-black p-[2px] rounded-md">
               <div className="bg-white rounded-md flex items-center">
-                <svg
-                  className="ml-3 w-5 h-5 text-gray-400"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-4.35-4.35M17 17A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.5 13.5z"
-                  />
+                <svg className="ml-3 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 17A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.5 13.5z" />
                 </svg>
                 <input
                   type="text"
@@ -80,19 +59,14 @@ useEffect(() => {
           </div>
         </div>
 
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {filteredBlogs.map((blog, index) => (
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none sm:grid-cols-2 lg:grid-cols-3">
+          {visibleBlogs.map((blog, index) => (
             <article key={index} className="flex max-w-xl flex-col items-start justify-between">
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={blog.publishedAt} className="text-gray-900">
                   {new Date(blog.publishedAt).toLocaleDateString()}
                 </time>
-                <a
-                  href={blog.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                >
+                <a href={blog.url} target="_blank" rel="noopener noreferrer" className="rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   {blog.source?.name || 'Source'}
                 </a>
               </div>
@@ -125,6 +99,17 @@ useEffect(() => {
             </article>
           ))}
         </div>
+
+        {visibleCount < filteredBlogs.length && (
+          <div className="mt-12 text-center">
+            <button
+              onClick={() => setVisibleCount(visibleCount + 6)}
+              className="inline-block rounded-md bg-lime-600 px-6 py-2 text-white font-semibold hover:bg-lime-700 transition"
+            >
+              Load More
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

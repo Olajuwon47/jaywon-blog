@@ -103,6 +103,25 @@ export default function About() {
               </p>
             </div>
           </div>
+
+          {/* Mission Images */}
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+              alt="Team brainstorming"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=800&q=80"
+              alt="People collaboration"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+              alt="Celebrating success"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+          </div>
         </div>
       </section>
 
@@ -145,24 +164,27 @@ export default function About() {
               </p>
             </div>
           </div>
+
+          {/* Vision Images */}
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+              alt="Creative workspace"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=800&q=80"
+              alt="Innovative thinking"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+              alt="Global connection"
+              className="rounded-lg shadow-md object-cover w-full h-64"
+            />
+          </div>
         </div>
       </section>
-
-      {/* STATS 
-      <div className="bg-green-300 py-24 sm:py-32 max-sm:py-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center sm:grid-cols-2 lg:grid-cols-3">
-            {stats.map((stat) => (
-              <div key={stat.name} className="mx-auto flex max-w-xs flex-col gap-y-4">
-                <dt className="text-base text-black">{stat.name}</dt>
-                <dd className="order-first text-3xl sm:text-5xl font-semibold tracking-tight text-gray-900">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      </div>*/}
     </>
   );
 }
