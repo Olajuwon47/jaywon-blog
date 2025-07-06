@@ -11,16 +11,12 @@ const tiers = [
     href: "#",
     price: "$0",
     features: [
-      "Access to all blog articles",
-      "Weekly newsletter",
-      "Commenting privileges",
-      "Ad-supported experience",
-      "Everything in Basic",
-      "Ad-free experience",
-      "Exclusive premium articles",
-      "Priority support",
-      "Monthly analytics report",
+  "Access to all blog articles",
+  "Weekly newsletter",
+  "Commenting privileges",
+  "Ad-supported experience"
     ],
+
     featured: false,
   },
   {
@@ -28,17 +24,14 @@ const tiers = [
     id: "tier-premium",
     href: "#",
     price: "$29",
-    features: [
-      "Everything in Basic",
-      "Ad-free experience",
-      "Exclusive premium articles",
-      "Priority support",
-      "Monthly analytics report",
-      "Access to all blog articles",
-      "Weekly newsletter",
-      "Commenting privileges",
-      "Ad-supported experience",
-    ],
+   features: [
+  "All Free Plan features",
+  "Ad-free reading experience 🚫🧾",
+  "Exclusive premium articles 🔒✨",
+  "Priority customer support ⚡",
+  "Monthly personalized analytics 📊"
+   ],
+
     featured: true,
   },
 ];
@@ -83,8 +76,7 @@ export default function SUBCRIPTION() {
             Our Pricing
           </h1>
           <p className="text-lg text-gray-500 font-bold max-w-2xl mx-auto mt-4 max-sm:text-sm max-md:text-base">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-            Phasellus convallis lobortis sem mauris finibus.
+            Choose a plan that suits your journey 📖 whether you're a casual reader or a knowledge-hungry explorer. Our subscriptions unlock deeper insights, premium content, and an ad-free experience designed to keep you focused and inspired. 💡✨
           </p>
         </div>
 

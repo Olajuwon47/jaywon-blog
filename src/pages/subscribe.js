@@ -52,10 +52,10 @@ export default function Subscribe() {
           <div className="bg-white py-16 px-8 mt-24 rounded-lg shadow-lg sm:px-12 lg:py-20 lg:px-16 max-sm:py-12 max-sm:px-4 max-md:py-14 max-md:px-6">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl max-sm:text-2xl max-md:text-3xl mb-4">
-                STAY UPDATED WITH OUR NEWSLETTER
+                STAY UPDATE WITH THE CURRENT TREND📈 
               </h1>
               <p className="pb-8 text-lg text-gray-600 max-sm:text-base max-md:text-lg max-sm:pb-6 max-md:pb-7">
-                Get the latest updates, insights, and exclusive content delivered straight to your inbox.
+                Get the latest updates, insights, and trends in the world of technology, business, and more. Subscribe to our newsletter and stay ahead of the curve.
               </p>
               
               <form onSubmit={handleSubmit} className="space-y-6">

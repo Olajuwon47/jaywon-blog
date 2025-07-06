@@ -88,12 +88,12 @@ export default function Home() {
       <div className="relative isolate px-4  sm:px-6 sm:pt-14 md:px-8 lg:px-8">
         <div className="mx-auto max-w-2xl py-20 sm:py-32 md:py-40 lg:py-56">
           <div className="text-center">
-            <h1 className="text-balance text-4xl max-sm:text-2xl max-md:text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
-              Data to enrich your online business
+            <h1 className="text-balance text-sm max-sm:text-2xl max-md:text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
+             Welcome to my blog  your gateway to the latest in tech, business & beyond. 🚀
             </h1>
 
             <p className="mt-6 max-sm:mt-4 text-pretty text-base max-sm:text-sm max-md:text-md font-medium text-gray-700 sm:text-lg md:text-xl/8">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+             📚 Dive into a curated collection of thought-provoking articles, timely news updates, and expert insights spanning tech, lifestyle, education, and more. Whether you're here to learn, stay informed, or get inspired there's something for every curious mind. 🌍
             </p>
 
             <div className="mt-8 max-sm:mt-6 flex flex-wrap items-center justify-center gap-x-6">
