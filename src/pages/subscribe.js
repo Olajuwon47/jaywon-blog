@@ -45,7 +45,7 @@ export default function Subscribe() {
   };
 
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center px-4 max-sm:px-2 max-md:px-3">
+    <div className="min-h-screen mb-9 bg-white flex items-center justify-center px-4 max-sm:px-2 max-md:px-3">
       <div className="max-w-4xl w-full">
         {!isSubscribed ? (
           // Subscription Form
