@@ -3,6 +3,9 @@ import { useState } from 'react'
 import { Link } from "react-router" 
 import Carousel from './Carousel.js'
 import Subscribe from './subscribe.js';
+import ChooseUs from './chooseus.js';
+import Testimonal from './Testimonal.js';
+
 
 
 const people = [
@@ -204,7 +207,10 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <ChooseUs/>
+    <Testimonal/>
     <Subscribe/>
+
     </div>
   )
 }
